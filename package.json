@@ -1,0 +1,19 @@
+{
+  "name": "adb-portfolio",
+  "version": "1.0.0",
+  "description": "ADB Portfolio page build with React",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Todiros/adb-portfolio-react.git"
+  },
+  "author": "Tony Borisov, Anthony D. Borr, ADB Studios, Versatile Solutions",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Todiros/adb-portfolio-react/issues"
+  },
+  "homepage": "https://github.com/Todiros/adb-portfolio-react#readme"
+}
