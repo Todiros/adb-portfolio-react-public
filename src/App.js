@@ -1,15 +1,13 @@
 import React, { Component } from 'react'
 import './styles/App.sass'
 
-import MobileHeader from './components/MobileHeader'
-import MobileNav from './components/MobileNav'
+import Layout from './components/Layout'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <MobileHeader />
-        <MobileNav />
+        <Layout />
       </div>
     );
   }
