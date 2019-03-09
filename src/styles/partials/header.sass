@@ -5,14 +5,18 @@
     width: 100%
     height: 100%
     background: $colorBlackBg
+    border: 1px solid yellow
 
+    // MOBILE
     @media screen and (max-width: $tablet - 1)
         background: none !important
 
+    // TABLET
     @media screen and (min-width: $tablet) and (max-width: $desktop - 1)
         grid-template-columns: 200px auto
         grid-template-rows: 1fr
     
+    // DESKTOP
     @media screen and (min-width: $desktop) and (max-width: $desktopWide - 1)
         display: grid
 

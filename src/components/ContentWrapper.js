@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 
 const ContentWrapper = () => {
     return (
-        <main id="content-wrap">
+        <main id="content-wrapper">
             <p>CONTENT</p>
         </main>
     )

@@ -1,17 +1,26 @@
 #layout
     display: grid
     height: 100%
-    grid-template-rows: 60px 1fr 80px
-
+    grid-template-rows: minmax(60px, 10vh) 1fr minmax(60px, 10vh)
+    border: 1px solid red
+    
     // TABLET
     @media screen and (min-width: $tablet)
-        grid-template-rows: 80px 1fr
+        grid-template-rows: minmax(80px, 8vh) 1fr
         grid-template-columns: 1fr
 
+    // DESKTOP
     @media screen and (min-width: $desktop)
         grid-template-rows: 120px 1fr
         grid-template-columns: 80px 1fr
     
+    // LANDSCAPE
+    @media screen and (orientation: landscape) and (max-width: $desktop - 1)
+        grid-template-rows: 80px 1fr
+        grid-template-columns: 80px 1fr
+    
+    // HIGH PIXEL WIDE DESKTOPS
     @media screen and (min-width: $desktopWide)
         grid-template-rows: 80px 1fr
         grid-template-columns: 80px 1fr
+    
