@@ -2,3 +2,16 @@
     display: grid
     height: 100%
     grid-template-rows: 60px 1fr 80px
+
+    // TABLET
+    @media screen and (min-width: $tablet)
+        grid-template-rows: 80px 1fr
+        grid-template-columns: 1fr
+
+    @media screen and (min-width: $desktop)
+        grid-template-rows: 120px 1fr
+        grid-template-columns: 80px 1fr
+    
+    @media screen and (min-width: $desktopWide)
+        grid-template-rows: 80px 1fr
+        grid-template-columns: 80px 1fr

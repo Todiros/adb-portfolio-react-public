@@ -1,16 +1,16 @@
 // eslint-disable-next-line no-unused-vars
 import React, { Component } from 'react'
 
-import NavContainer from './NavContainer'
-import HeaderContainer from './HeaderContainer'
 import ContentWrapper from './ContentWrapper'
+import Header from './Header'
+import Nav from './Nav'
 
 const Layout = () => {
     return (
         <div id="layout">
-            <HeaderContainer />
+            <Header />
             <ContentWrapper />
-            <NavContainer />
+            <Nav />
         </div>
     );
 }

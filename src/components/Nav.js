@@ -1,10 +1,11 @@
 // eslint-disable-next-line no-unused-vars
 import React, { Component } from 'react'
 
-const MobileNav = () => {
+const Nav = (props) => {
+    const deviceClass = props.device === "tablet" ? "tablet" : "mobile"
     return (
-        <nav id="mobile-nav-container">
-            <ul id="mobile-nav">
+        <nav id='nav-container' className={deviceClass}>
+            <ul id="nav">
                 <li>HOME</li>
                 <li>ABOUT</li>
                 <li>WORK</li>
@@ -14,4 +15,4 @@ const MobileNav = () => {
     )
 }
 
-export default MobileNav
+export default Nav
