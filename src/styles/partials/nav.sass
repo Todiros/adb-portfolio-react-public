@@ -6,9 +6,40 @@
     background: $colorBlackBg
     border: 1px solid green
 
-    @media screen and (min-width: $tablet) and (max-width: $desktop - 1)
-        display: none
+    &.header
+        display: none !important
+
+    // TABLET
+    @media screen and (min-width: $tablet)
+        &.page
+            display: none
+
+        &.header
+            display: grid !important
+            grid-column: 2
+            grid-row: 1 !important
+
+    // // LANDSCAPE (MOBILE, TABLET, DESKTOP)
+    // @media screen and (max-width: $widescreen - 1) and (orientation: landscape)
+    //     display: inherit
+
+    // // DESKTOP PORTRAIT
+    // @media screen and (min-width: $desktop)
+    //     display: inherit
+
+    // // WIDE DESKTOPS
+    // @media screen and (min-width: $widescreen)
+    //     display: inherit
     
+    // &.header
+    //     display: none !important
+
+    //     @media screen and (min-width: $tablet) and (max-width: $desktop - 1) and (orientation: portrait) 
+    //         display: grid !important
+    //         grid-column: 2
+    //         grid-row: 1 !important
+
+
 #nav
     list-style: none
     padding: 0
@@ -17,12 +48,3 @@
     li
         display: inline-grid
         margin: 10px
-
-
-.tablet
-    display: none !important
-
-    @media screen and (min-width: $tablet + 1) and (max-width: $desktop - 1)
-        display: grid !important
-        grid-column: 2
-        grid-row: 1 !important

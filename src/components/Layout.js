@@ -4,13 +4,15 @@ import React, { Component } from 'react'
 import ContentWrapper from './ContentWrapper'
 import Header from './Header'
 import Nav from './Nav'
+import PageName from './PageName'
 
 const Layout = () => {
     return (
         <div id="layout">
             <Header />
+            <PageName position={'page'} name={'//PAGE'} />
             <ContentWrapper />
-            <Nav />
+            <Nav position={'page'}/>
         </div>
     );
 }

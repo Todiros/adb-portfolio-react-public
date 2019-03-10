@@ -7,9 +7,9 @@ import PageName from './PageName'
 const Header = () => {
     return (
         <header id="header">
-            <p>MOBILE HEADER</p>
-            <PageName name={"HOME"}/>
-            <Nav device={"tablet"}/>
+            <p className='logo'>MOBILE HEADER</p>
+            <PageName position={'header'} name={"HOME"}/>
+            <Nav position={'header'}/>
         </header>
     )
 }

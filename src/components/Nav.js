@@ -2,9 +2,9 @@
 import React, { Component } from 'react'
 
 const Nav = (props) => {
-    const deviceClass = props.device === "tablet" ? "tablet" : "mobile"
+    const positionClass = props.position === "header" ? "header" : "page"
     return (
-        <nav id='nav-container' className={deviceClass}>
+        <nav id='nav-container' className={positionClass}>
             <ul id="nav">
                 <li>HOME</li>
                 <li>ABOUT</li>
