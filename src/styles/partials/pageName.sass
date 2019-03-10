@@ -1,0 +1,24 @@
+#page-name
+    border: 1px solid pink
+    display: block
+
+    &.page
+        display: none
+
+    // TABLET
+    @media screen and (min-width: $tablet)
+        &.header
+            display: none
+    
+    // // LANDSCAPE (MOBILE, TABLET, DESKTOP)
+    // @media screen and (max-width: $desktopWide - 1) and (orientation: landscape)
+    //     grid-row: 2
+    //     grid-column: 2
+    
+    // // DESKTOP
+    // @media screen and (min-width: $desktop)
+    //     display: grid
+
+    // // WIDE DESKTOPS
+    // @media screen and (min-width: $widescreen)
+    //     grid-template-rows: inherit
