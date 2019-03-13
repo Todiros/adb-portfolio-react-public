@@ -12,18 +12,20 @@
         background: none !important
 
     // TABLET
-    @media screen and (min-width: $tablet)
+    @media screen and (min-width: $tablet) and (max-width: $desktop - 1) and (min-height: $tablet)
         grid-template-columns: minmax(250px, 35vw) auto
         grid-template-rows: 1fr
 
     // // LANDSCAPE (MOBILE, TABLET, DESKTOP)
-    // @media screen and (max-width: $widescreen - 1) and (orientation: landscape)
+    // @media screen and (max-height: 770px) and (orientation: landscape)
     //     grid-row: 1
     //     grid-column: 1 / span 2
     
-    // // DESKTOP
-    // @media screen and (min-width: $desktop)
-    //     display: grid
+    // DESKTOP
+    @media screen and (min-width: $desktop) and (max-width: $widescreen - 1)
+        background: none
+        grid-row: 1
+        grid-column: 2
 
     // // WIDE DESKTOPS
     // @media screen and (min-width: $widescreen)

@@ -5,27 +5,22 @@
     border: 1px solid red
     
     // TABLET
-    @media screen and (min-width: $tablet)
+    @media screen and (min-width: $tablet) and (max-width: $desktop - 1) and (min-height: $tablet)
         grid-template-rows: minmax(80px, 8vh) 1fr
         grid-template-columns: 1fr
 
-    // LANDSCAPE (MOBILE, TABLET)
-    @media screen and (max-height: 700px) and (max-width: $tabletL) and (orientation: landscape)
+    // LANDSCAPE (MOBILE, SM-TABLET)
+    @media screen and (max-height: 770px) and (orientation: landscape)
         grid-template-rows: minmax(80px, 12vh) 1fr
         grid-template-columns: minmax(80px, 10vw) minmax(40px, 8vw) 1fr
 
     // DESKTOP
-    @media screen and (min-width: $desktop)
-        grid-template-rows: minmax(120px, 15vh) 1fr
-        grid-template-columns: minmax(80px, 7vw) 1fr
-
-    // // LANDSCAPE (DESKTOP)
-    // @media screen and (min-width: $desktop) and (max-width: $widescreen - 1) and (orientation: landscape)
-    //     grid-template-rows: minmax(80px, 12vh) 1fr
-    //     grid-template-columns: minmax(80px, 10vw) minmax(40px, 8vw) 1fr
+    @media screen and (min-width: $desktop) and (max-width: $widescreen - 1)
+        grid-template-rows: minmax(150px, 20vh) minmax(50px, 6vh) 1fr
+        grid-template-columns: minmax(80px, 8vw) 1fr
     
-    // WIDE DESKTOPS
+    // WIDESCREEN (LG DESKTOP, LG TABLET)
     @media screen and (min-width: $widescreen)
-        grid-template-rows: minmax(150px, 15vh) 1fr
-        grid-template-columns: minmax(120px, 6vw) minmax(150px, 15vw) 1fr
+        grid-template-rows: minmax(120px, 17vh) 1fr
+        grid-template-columns: minmax(80px, 8vw) minmax(150px, 15vw) 1fr
     

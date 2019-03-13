@@ -23,9 +23,21 @@
     // @media screen and (max-width: $widescreen - 1) and (orientation: landscape)
     //     display: inherit
 
-    // // DESKTOP PORTRAIT
-    // @media screen and (min-width: $desktop)
-    //     display: inherit
+    // DESKTOP
+    @media screen and (min-width: $desktop) and (max-width: $widescreen - 1)
+        &.page
+            display: grid
+            grid-row: 1 / span 3
+            grid-template-rows: minmax(150px, 20vh) 1fr minmax(100px, 15vh)
+            
+            #nav
+                display: grid
+                grid-row: 2
+                margin: 30% 0
+                align-items: center
+
+        &.header
+            display: none !important
 
     // // WIDE DESKTOPS
     // @media screen and (min-width: $widescreen)
