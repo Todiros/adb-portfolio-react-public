@@ -4,9 +4,9 @@ import React, { Component } from 'react'
 const PageName = (props) => {
     const positionClass = props.position === "header" ? "header" : "page"
     return (
-        <div id="page-name" className={positionClass}>
-            {props.name}
-        </div>
+        <section id="page-name-container" className={positionClass}>
+            <p className='page-name'>{props.name}</p>
+        </section>
     )
 }
 
