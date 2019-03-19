@@ -10,7 +10,7 @@ const Layout = () => {
     return (
         <div id="layout">
             <Header />
-            <PageName position={'page'} name={'//PAGE'} />
+            <PageName position={'page'} name={'PAGE'} />
             <ContentWrapper />
             <Nav position={'page'}/>
         </div>
