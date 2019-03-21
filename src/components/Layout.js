@@ -5,6 +5,7 @@ import ContentWrapper from './ContentWrapper'
 import Header from './Header'
 import Nav from './Nav'
 import PageName from './PageName'
+import SocialNav from './SocialNav';
 
 const Layout = () => {
     return (
@@ -13,6 +14,7 @@ const Layout = () => {
             <PageName position={'page'} name={'PAGE'} />
             <ContentWrapper />
             <Nav position={'page'}/>
+            <SocialNav position={'page'} />
         </div>
     );
 }

@@ -67,3 +67,11 @@
 
 #social-nav-container
     display: none
+
+    @media screen and (min-width: $desktop) and (max-width: $widescreen - 1)
+        &.header
+            display: grid
+
+    @media screen and (min-width: $widescreen) and (min-height: $tabletL)
+        &.page
+            display: grid
