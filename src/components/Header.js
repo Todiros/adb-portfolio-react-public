@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 
 import Nav from './Nav'
 import PageName from './PageName'
-import SocialNav from './SocialNav';
 
 const Header = () => {
     return (
@@ -11,7 +10,6 @@ const Header = () => {
             <p className='logo'>MOBILE HEADER</p>
             <PageName position={'header'} name={"HOME"}/>
             <Nav position={'header'}/>
-            <SocialNav position={'header'}/>
         </header>
     )
 }

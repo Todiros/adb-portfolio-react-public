@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { Component } from 'react'
+import SocialNav from './SocialNav';
 
 const Nav = (props) => {
     const positionClass = props.position === "header" ? "header" : "page"
@@ -11,6 +12,7 @@ const Nav = (props) => {
                 <li>WORK</li>
                 <li>CONTACTS</li>
             </ul>
+            <SocialNav className={positionClass} />
         </nav>
     )
 }
