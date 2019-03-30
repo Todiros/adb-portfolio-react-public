@@ -2,6 +2,12 @@
     border: 1px solid pink
     display: block
 
+    &.header
+        height: 100%
+
+        p 
+            margin: 0
+
     &.page
         display: none
 
@@ -9,11 +15,6 @@
     @media screen and (min-width: $tablet)
         &.header
             display: none
-    
-    // // LANDSCAPE (MOBILE, TABLET, DESKTOP)
-    // @media screen and (max-width: $desktopWide - 1) and (orientation: landscape)
-    //     grid-row: 2
-    //     grid-column: 2
     
     // DESKTOP
     @media screen and (min-width: $desktop) and (max-width: $widescreen - 1)
@@ -29,7 +30,18 @@
             display: grid
             grid-row: 2
             grid-column: 2
-            padding-top: 5em
+            padding-top: 4em
+
+            .page-name
+                margin: 10px
+    
+    // LANDSCAPE (MOBILE, TABLET, DESKTOP)
+    @media screen and (max-height: 770px) and (orientation: landscape)
+        &.page
+            display: grid
+            grid-row: 2
+            grid-column: 2
+            padding-top: 4em
 
             .page-name
                 margin: 10px

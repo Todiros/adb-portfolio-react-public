@@ -28,9 +28,6 @@
         &.page
             display: none
 
-    // // LANDSCAPE (MOBILE, TABLET, DESKTOP)
-    // @media screen and (max-width: $widescreen - 1) and (orientation: landscape)
-    //     display: inherit
 
     // DESKTOP
     @media screen and (min-width: $desktop) and (max-width: $widescreen - 1)
@@ -49,6 +46,25 @@
 
     // WIDE DESKTOPS
     @media screen and (min-width: $widescreen)
+        &.header
+            display: none !important
+        
+        &.page
+            display: grid
+            grid-row: 2
+            grid-column: 1
+
+            #nav
+                display: grid
+                grid-row: 1
+                padding: 4em 0 0
+                align-self: middle
+
+                li 
+                    margin: 1em
+
+    // LANDSCAPE (MOBILE, TABLET, DESKTOP)
+    @media screen and (max-height: 770px) and (orientation: landscape)
         &.header
             display: none !important
         
