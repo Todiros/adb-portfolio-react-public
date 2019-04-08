@@ -1,5 +1,5 @@
-// eslint-disable-next-line no-unused-vars
-import React, { Component } from 'react'
+import React from 'react'
+import { BrowserRouter as Router } from 'react-router-dom'
 
 import ContentWrapper from './ContentWrapper'
 import Header from './Header'
@@ -9,10 +9,12 @@ import PageName from './PageName'
 const Layout = () => {
     return (
         <div id="layout">
-            <Header />
-            <PageName position={'page'} name={'PAGE'} />
-            <ContentWrapper />
-            <Nav position={'page'}/>
+            <Router>
+                <Header />
+                <PageName position={'page'}/>
+                <ContentWrapper/>
+                <Nav position={'page'}/>
+            </Router>
         </div>
     );
 }

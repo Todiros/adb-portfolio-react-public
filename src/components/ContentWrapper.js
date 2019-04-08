@@ -1,12 +1,21 @@
-// eslint-disable-next-line no-unused-vars
-import React, { Component } from 'react'
+import React from 'react'
+import { Route } from 'react-router-dom'
+
+import Routes from './routes/routes'
 
 const ContentWrapper = () => {
     return (
         <main id="content-wrapper">
-            <p>CONTENT</p>
+            {Routes.map((route, index) => (
+                <Route 
+                    key={index}
+                    path={route.path}
+                    exact={route.exact}
+                    component={route.content}
+                />
+            ))}
         </main>
     )
 }
 
-export default ContentWrapper
+export default ContentWrapper;

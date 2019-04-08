@@ -1,11 +1,20 @@
-// eslint-disable-next-line no-unused-vars
-import React, { Component } from 'react'
+import React from 'react'
+import { Route } from 'react-router-dom'
+import Routes from './routes/routes'
 
 const PageName = (props) => {
     const positionClass = props.position === "header" ? "header" : "page"
+
     return (
         <section id="page-name-container" className={positionClass}>
-            <p className='page-name'>{`// ${props.name}`}</p>
+            {Routes.map((route, index) => (
+                <Route 
+                    key={index}
+                    path={route.path}
+                    exact={route.exact}
+                    component={route.pageName}
+                />
+            ))}
         </section>
     )
 }

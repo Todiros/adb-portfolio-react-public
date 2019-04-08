@@ -7,6 +7,9 @@
     background: $colorBlackBg
     border: 1px solid yellow
 
+    .header-background
+        display: none
+
     // MOBILE
     @media screen and (max-width: $tablet - 1)
         background: none !important
@@ -28,10 +31,38 @@
 
     // WIDE DESKTOPS
     @media screen and (min-width: $widescreen)
+        background: none
+        grid-template-columns: minmax(80px, 8vw) 1fr
         grid-row: 1
         grid-column: 1 / span 2
 
+        .header-background
+            display: block
+            grid-column: 1
+            background: $colorBlackBg
+
+        .logo 
+            grid-column: 2
+            font-size: 2em
+
     // LANDSCAPE (MOBILE, TABLET, DESKTOP)
     @media screen and (max-height: 770px) and (orientation: landscape)
+        background: none
+        grid-template-columns: minmax(65px, 6vw) 1fr
         grid-row: 1
         grid-column: 1 / span 2
+
+        .header-background
+            display: block
+            grid-column: 1
+            background: $colorBlackBg
+
+        .logo 
+            grid-column: 2
+            font-size: 1.2em
+            position: absolute
+            margin-left: 4.5vw
+            // white-space: nowrap
+            // overflow: hidden
+            // width: 100%
+            // transform: translateX(-35px)

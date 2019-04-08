@@ -1,5 +1,4 @@
-// eslint-disable-next-line no-unused-vars
-import React, { Component } from 'react'
+import React from 'react'
 
 import Nav from './Nav'
 import PageName from './PageName'
@@ -7,8 +6,9 @@ import PageName from './PageName'
 const Header = () => {
     return (
         <header id="header">
-            <p className='logo'>MOBILE HEADER</p>
-            <PageName position={'header'} name={"HOME"}/>
+            <span className='header-background'></span>
+            <p className='logo'>WEBSITE LOGO</p>
+            <PageName position={'header'}/>
             <Nav position={'header'}/>
         </header>
     )
