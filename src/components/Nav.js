@@ -21,7 +21,7 @@ const Nav = (props) => {
                         <Link to='/contact'>CONTACT</Link> 
                     </li>
                 </ul>
-                <SocialNav className={positionClass} />
+                <SocialNav position={positionClass} />
             </nav>
     )
 }
