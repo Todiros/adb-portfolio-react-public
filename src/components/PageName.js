@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 import Routes from './routes/routes'
 
 const PageName = (props) => {
@@ -7,14 +7,16 @@ const PageName = (props) => {
 
     return (
         <section id="page-name-container" className={positionClass}>
-            {Routes.map((route, index) => (
-                <Route 
-                    key={index}
-                    path={route.path}
-                    exact={route.exact}
-                    component={route.pageName}
-                />
-            ))}
+            <Switch>
+                {Routes.map((route, index) => (
+                    <Route 
+                        key={index}
+                        path={route.path}
+                        exact={route.exact}
+                        component={route.pageName}
+                    />
+                ))}
+            </Switch>
         </section>
     )
 }
