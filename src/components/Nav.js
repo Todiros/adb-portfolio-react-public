@@ -2,8 +2,6 @@ import React from 'react'
 import SocialNav from './SocialNav'
 import { Link } from 'react-router-dom'
 
-const baseUrl = `${process.env.PUBLIC_URL}`
-
 const Nav = (props) => {
     const positionClass = props.position === "header" ? "header" : "page"
 
@@ -11,16 +9,16 @@ const Nav = (props) => {
             <nav id='nav-container' className={positionClass}>
                 <ul id="nav">
                     <li>
-                        <Link to={`${baseUrl}/`}>HOME</Link>
+                        <Link to={`/`}>HOME</Link>
                     </li>
                     <li>
-                        <Link to={`${baseUrl}/about`}>ABOUT</Link> 
+                        <Link to={`/about`}>ABOUT</Link> 
                     </li>
                     <li>
-                        <Link to={`${baseUrl}/work`}>WORK</Link> 
+                        <Link to={`/work`}>WORK</Link> 
                     </li>
                     <li>
-                        <Link to={`${baseUrl}/contact`}>CONTACT</Link> 
+                        <Link to={`/contact`}>CONTACT</Link> 
                     </li>
                 </ul>
                 <SocialNav position={positionClass} />
