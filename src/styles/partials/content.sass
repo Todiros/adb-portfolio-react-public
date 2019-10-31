@@ -30,8 +30,10 @@
 
     #error-page-wrapper
         display: grid
-        justify-content: center
-        align-content: space-around
+        grid-template-rows: 15% 1fr
+        grid-template-columns: 1fr
 
         img 
-            max-width: 300px
+            max-width: 80vmin
+            justify-self: center
+            align-self: start
