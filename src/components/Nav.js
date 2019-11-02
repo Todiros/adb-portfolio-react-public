@@ -12,13 +12,13 @@ const Nav = (props) => {
                         <Link to={`/`}>HOME</Link>
                     </li>
                     <li>
-                        <Link to={`/about`}>ABOUT</Link> 
-                    </li>
-                    <li>
                         <Link to={`/work`}>WORK</Link> 
                     </li>
                     <li>
                         <Link to={`/contact`}>CONTACT</Link> 
+                    </li>
+                    <li>
+                        <Link to={`/about`}>ABOUT</Link> 
                     </li>
                 </ul>
                 <SocialNav position={positionClass} />
