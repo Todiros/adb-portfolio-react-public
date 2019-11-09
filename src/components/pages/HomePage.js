@@ -1,6 +1,6 @@
 import React from 'react'
 import _MyPhoto from '../../res/home_image.svg'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const HomePage = () => {
   return (
@@ -8,7 +8,7 @@ const HomePage = () => {
       <section id='intro-wrapper'>
         <p id='welcome-msg'>Welcome!</p>
         <p id='short-intro'>Hey, it's Anthony D. Borr</p>
-        <button id='home-page-work-button' className='page-button'>Work</button>
+        <Link to={`/work`} id='home-page-work-button' className='page-button'>Work</Link>
       </section>
       <section id='landing-wrapper'>
         <img 
