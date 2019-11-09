@@ -1,11 +1,22 @@
 import React from 'react'
+import _MyPhoto from '../../res/home_image.svg'
+// import { Link } from 'react-router-dom'
 
 const HomePage = () => {
   return (
     <div id='home-page-wrapper'>
-      <p id='welcome-msg'>Welcome!</p>
-      <section id='short-intro'>Hey, it's Anthony D. Borr</section>
-      <button id='home-page-work-btn' className='page-button'>Work</button>
+      <section id='intro-wrapper'>
+        <p id='welcome-msg'>Welcome!</p>
+        <p id='short-intro'>Hey, it's Anthony D. Borr</p>
+        <button id='home-page-work-button' className='page-button'>Work</button>
+      </section>
+      <section id='landing-wrapper'>
+        <img 
+          src={_MyPhoto}
+          alt='me'
+          id='home-image'>
+        </img>
+      </section>
     </div>
   )
 }
