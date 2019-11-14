@@ -2,6 +2,12 @@
     display: grid
     grid-template-columns: 30% 1fr
 
+    @media screen and (max-width: $tablet)
+        grid-template-columns: auto
+
+        #landing-wrapper
+            display: none
+
     #intro-wrapper, #landing-wrapper
         align-self: center
 
@@ -16,3 +22,5 @@
     
     #short-intro
         margin-bottom: 1em
+
+        
