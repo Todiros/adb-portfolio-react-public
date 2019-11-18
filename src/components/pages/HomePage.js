@@ -8,7 +8,7 @@ const HomePage = () => {
       <section id='intro-wrapper'>
         <p id='welcome-msg'>Welcome!</p>
         <p id='short-intro'>Hey, it's Anthony D. Borr</p>
-        <Link to={`/work`} id='home-page-work-button' className='page-button'>Work</Link>
+        <Link to={`/work`} id='home-page-work-button' className='page-link'>Work</Link>
       </section>
       <section id='landing-wrapper'>
         <img 
