@@ -7,20 +7,24 @@ import WorkPage from '../pages/WorkPage'
 import ContactPage from '../pages/ContactPage'
 import ErrorPage from '../pages/ErrorPage';
 
+const pageName = (name) => {
+    return <h3 className='page-name'>// {name}</h3>
+}
+
 const home = () => {
-    return <p className='page-name'>// HOME</p>
+    return pageName('HOME')
 }
 const about = () => {
-    return <p className='page-name'>// ABOUT</p>
+    return pageName('ABOUT')
 }
 const work = () => {
-    return <p className='page-name'>// WORK</p>
+    return pageName('WORK')
 }
 const contact = () => {
-    return <p className='page-name'>// CONTACT</p>
+    return pageName('CONTACT')
 }
 const error = () => {
-    return <p className='page-name'>// 404</p>
+    return pageName('404')
 }
 
 const routes = [
