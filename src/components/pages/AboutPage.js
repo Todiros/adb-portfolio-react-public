@@ -1,6 +1,7 @@
 import React from 'react'
+import AboutSection from '../layouts/AboutSection'
 
-const LoremIpsum = () => <React.Fragment>
+const LoremIpsumIntro = () => <React.Fragment>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis pretium urna, vel tincidunt ante. 
     Cras porttitor sit amet leo sed gravida. Fusce aliquet, justo ac fringilla maximus, augue lorem pharetra lectus, 
     eget tincidunt nisl nunc dignissim odio. Nunc sem turpis, mattis nec risus vel, iaculis vestibulum dui. 
@@ -13,26 +14,32 @@ const LoremIpsum = () => <React.Fragment>
     Nullam dui velit, tempor at neque quis, hendrerit congue urna. Sed ac vulputate ante. 
     Etiam sit amet enim sed leo ultricies sodales. Etiam rutrum arcu purus, at volutpat ligula bibendum non.
 </React.Fragment>
+const LoremIpsumCV = () => <React.Fragment>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus lectus nec justo suscipit auctor. Fusce mollis sapien eget quam sodales, id pharetra magna suscipit. Nulla facilisi. Integer nec nulla mi. Nam placerat nisi venenatis, consequat mauris et, ornare libero. Suspendisse potenti. Morbi turpis elit, aliquet consequat odio nec, scelerisque.
+</React.Fragment>
 
 const AboutPage = () => {
     return (
         <div id='about-page-wrapper'>
             <section id='story-wrapper'>
                 <p id='my-story'>
-                    <LoremIpsum />
+                    <LoremIpsumIntro />
                 </p>
             </section>
             <div id='cv-wrapper'>
-                <section id='cv-education'>
-                    <p>Education</p>
-                    <article>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus lectus nec justo suscipit auctor. Fusce mollis sapien eget quam sodales, id pharetra magna suscipit. Nulla facilisi. Integer nec nulla mi. Nam placerat nisi venenatis, consequat mauris et, ornare libero. Suspendisse potenti. Morbi turpis elit, aliquet consequat odio nec, scelerisque.
-                    </article>
-                </section>
-                <section id='cv-projects'>Projects</section>
-                <section id='cv-certificates'>Certificates</section>
-                <section id='cv-skills'>Skills, Traits & Talents</section>
-                <section id='cv-passions'>Passions</section>
+
+                <AboutSection sectionId='cv-education' sectionTitle='Education'>
+                </AboutSection>
+                <AboutSection sectionId='cv-projects' sectionTitle='Projects'>
+                </AboutSection>
+                <AboutSection sectionId='cv-certificates' sectionTitle='Certificates'>
+                </AboutSection>
+                <AboutSection sectionId='cv-skills' sectionTitle='Skills, Traits & Talents'>
+                    <LoremIpsumCV />
+                </AboutSection>
+                <AboutSection sectionId='cv-passions' sectionTitle='Passions'>
+                </AboutSection>
+                
                 <div id='button-wrapper'>
                     <button id='download-cv-button' className='custom-button'>Download CV</button>
                 </div>
