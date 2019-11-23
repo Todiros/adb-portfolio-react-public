@@ -2,10 +2,10 @@
 import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
 
-import ContentWrapper from './ContentWrapper'
-import Header from './Header'
-import Nav from './Nav'
-import PageName from './PageName'
+import ContentWrapper from './layouts/ContentWrapper'
+import Header from './layouts/Header'
+import Nav from './layouts/Nav'
+import PageName from './layouts/PageName'
 
 const Layout = () => {
     return (

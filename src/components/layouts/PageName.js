@@ -1,23 +1,24 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
+import Routes from '../routes/routes'
 
-import Routes from './routes/routes'
+const PageName = (props) => {
+    const positionClass = props.position === "header" ? "header" : "page"
 
-const ContentWrapper = () => {
     return (
-        <main id="content-wrapper">
+        <section id="page-name-container" className={positionClass}>
             <Switch>
                 {Routes.map((route, index) => (
                     <Route 
                         key={index}
                         path={route.path}
                         exact={route.exact}
-                        component={route.content}
+                        component={route.pageName}
                     />
                 ))}
             </Switch>
-        </main>
+        </section>
     )
 }
 
-export default ContentWrapper;
+export default PageName
