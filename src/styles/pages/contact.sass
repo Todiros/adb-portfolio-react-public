@@ -36,3 +36,31 @@
 
         #submit-wrapper
             margin: 1em
+
+    #contact-details-wrapper
+        display: none
+        justify-self: start
+        align-self: center
+        text-align: left
+        border-left: 1px solid lightgrey
+        padding-left: 5%
+        margin-left: 5%
+        
+        #contact-details
+            list-style: none
+            margin: 0
+            padding: 0
+    
+    // DESKTOP
+    @media screen and (min-width: $desktop) and (max-width: $widescreen - 1)
+        grid-template-columns: 60% 40%
+
+        #form-wrapper
+            grid-column: 1
+
+        #contact-details-wrapper
+            display: grid
+            grid-column: 2
+
+
+
