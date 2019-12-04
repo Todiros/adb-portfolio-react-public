@@ -1,9 +1,13 @@
 import React from 'react'
+import Project from '../layouts/Project'
+
 
 const WorkPage = () => {
     return (
-        <div>
-            <p>Work</p>
+        <div id="work-page-wrapper">
+            <Project />
+            <Project />
+            <Project />
         </div>
     )
 }
