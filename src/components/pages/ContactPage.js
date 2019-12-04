@@ -2,7 +2,10 @@ import React from 'react'
 
 const ContactPage = () => {
   return (
+    // Page Wrapper
     <div id='contact-page-wrapper'>
+
+      {/* Contact Form */}
       <form id='form-wrapper'>
         <p>You can reach me via email using the form below.</p>
         <section id='input-wrapper'>
@@ -15,6 +18,8 @@ const ContactPage = () => {
           <button id='send-mail-button' className='custom-button'>SEND</button>
         </section>
       </form>
+
+      {/* Contact Details Section */}
       <section id='contact-details-wrapper'>
           <h4>Contact Details</h4>
           <ul id="contact-details">
@@ -22,7 +27,8 @@ const ContactPage = () => {
             <li id="contact-location">Sofia, Bulgaria</li>
             <li id="contact-email">myemail@email.com (dummy)</li>
           </ul>
-        </section>
+      </section>
+      
     </div>
   )
 }
