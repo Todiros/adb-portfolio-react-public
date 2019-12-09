@@ -10,6 +10,7 @@ const Project = props => {
                 <li className="project-live">live</li>
                 <li className="project-code">code</li>
             </ul>
+            <p className="project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt dolorum non commodi consequatur quia libero sunt eius consequuntur illo, odit veniam. Eum ab saepe ullam ipsa dolore doloremque eaque libero.</p>
         </article>
     )
 }
