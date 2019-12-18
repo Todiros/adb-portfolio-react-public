@@ -1,29 +1,16 @@
 #work-page-wrapper
     display: grid
 
-    .work-project
-        display: inherit
-        grid-template-rows: repeat(4, auto)
-        justify-items: center
-        margin: 0 0.5em 2em
+    // TABLET
+    @media screen and (min-width: $tablet) and (max-width: $desktop - 1) and (min-height: $tablet)
+        grid-template-columns: 1fr 1fr
 
-        #project-title
-            margin: 1em 0
+    // DESKTOP
+    @media screen and (min-width: $desktop) and (max-width: $widescreen - 1)
+        grid-template-columns: repeat(3, 1fr)
 
-        ul#project-links
-            list-style: none
-            padding: 0
-            margin: 0.6em 0
-
-            li
-                display: inline
-                text-transform: uppercase
-                padding: 0 0.5em
-                margin: 0 0.5em
-
-        // TABLET
-        @media screen and (min-width: $tablet) and (max-width: $desktop - 1) and (min-height: $tablet)
-            margin: 0 1.5em 2em
-
+    // WIDESCREEN (LG DESKTOP, LG TABLET)
+    @media screen and (min-width: $widescreen)
+        grid-template-columns: 1fr 1fr
 
     

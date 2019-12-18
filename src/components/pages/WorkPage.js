@@ -8,6 +8,9 @@ const WorkPage = () => {
             <Project />
             <Project />
             <Project />
+            <Project />
+            <Project />
+            <Project />
         </div>
     )
 }
