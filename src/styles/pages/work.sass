@@ -1,9 +1,16 @@
 #work-page-wrapper
     display: grid
+    grid-template-columns: 1fr
+    margin: 0
+
+    // MOBILE LANDSCAPE ONLY
+    @media screen and (orientation: landscape)
+        margin: 0 1.5em
 
     // TABLET
     @media screen and (min-width: $tablet) and (max-width: $desktop - 1) and (min-height: $tablet)
         grid-template-columns: 1fr 1fr
+        margin: 0 1.5em
 
     // DESKTOP
     @media screen and (min-width: $desktop) and (max-width: $widescreen - 1)
@@ -11,6 +18,8 @@
 
     // WIDESCREEN (LG DESKTOP, LG TABLET)
     @media screen and (min-width: $widescreen)
-        grid-template-columns: 1fr 1fr
+        grid-template-columns: repeat(3, 1fr)
 
-    
+    // LARGE LANDSCAPE
+    @media screen and (max-height: $landscapeHeight) and (min-width: $tabletL) and (orientation: landscape)
+        grid-template-columns: 1fr 1fr
