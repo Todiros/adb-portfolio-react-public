@@ -11,6 +11,27 @@ const Project = props => {
                 <li className="project-code"><a href={props.code} target='_blank' rel='noopener noreferrer'>code</a></li>
             </ul>
             <p className="project-description">{props.description}</p>
+            <section className='more-details'>
+                <button id="click-for-more" className='custom-button'>more details</button>
+                <ul className="status-type">
+                    <li className="status">
+                        <h5 id="status-heading">status</h5>
+                        {/* TODO: props.status */}
+                    </li>
+                    <li className="type">
+                        <h5 id="type-heading">type</h5>
+                        {/* TODO: props.type */}
+                    </li>
+                </ul>
+                <ul className="challenges">
+                    <li className="challenge">
+                        {/* TODO: props.challenge */}
+                    </li>
+                    <li className="challenge">
+                        {/* TODO: props.challenge */}
+                    </li>
+                </ul>
+            </section>
         </article>
     )
 }
