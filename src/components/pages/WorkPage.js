@@ -7,7 +7,7 @@ const WorkPage = () => {
     return (
         <div id="work-page-wrapper">
             {projectArr.map(i =>
-                <Project name={'Project ' + i}/>
+                <Project name={'Project ' + i} key={i}/>
             )}
         </div>
     )
