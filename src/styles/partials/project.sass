@@ -23,8 +23,18 @@
                 padding: 0 0.5em
                 margin: 0 0.5em
         
-        .more-details
-            display: none
+        #more-details-wrapper
+            position: relative
+            width: 100%
+            height: auto
+
+            #more-details
+                position: absolute
+                background: $colorBlackBg
+                width: 100%
+
+                .status-type>li 
+                    list-style: none
             
         // TABLET
         @media screen and (min-width: $tablet) and (max-width: $desktop - 1) and (min-height: $tablet)

@@ -1,39 +1,38 @@
-import React from 'react'
+import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-const Project = props => {
-    return (
-        <article className='work-project'>
-            <h4 id="project-title">{props.name}</h4>
-            <img src={props.image} alt="project" className='project-thumbnail'/>
-            <ul id="project-links">
-                <li className="project-live"><a href={props.live} target='_blank' rel='noopener noreferrer'>live</a></li>
-                <li className="project-code"><a href={props.code} target='_blank' rel='noopener noreferrer'>code</a></li>
-            </ul>
-            <p className="project-description">{props.description}</p>
-            <section className='more-details'>
-                <button id="click-for-more" className='custom-button'>more details</button>
-                <ul className="status-type">
-                    <li className="status">
-                        <h5 id="status-heading">status</h5>
-                        {/* TODO: props.status */}
-                    </li>
-                    <li className="type">
-                        <h5 id="type-heading">type</h5>
-                        {/* TODO: props.type */}
-                    </li>
+import MoreDetails from './MoreDetails'
+
+class Project extends Component {
+    state = {
+        moreDetails: false 
+    }
+
+    handleClick = e => {
+        e.preventDefault()
+        this.setState({moreDetails: !this.state.moreDetails})
+    }
+
+    render() {
+        return (
+            <article className='work-project'>
+                <h4 id="project-title">{this.props.name}</h4>
+                <img src={this.props.image} alt="project" className='project-thumbnail'/>
+                <ul id="project-links">
+                    <li className="project-live"><a href={this.props.live} target='_blank' rel='noopener noreferrer'>live</a></li>
+                    <li className="project-code"><a href={this.props.code} target='_blank' rel='noopener noreferrer'>code</a></li>
                 </ul>
-                <ul className="challenges">
-                    <li className="challenge">
-                        {/* TODO: props.challenge */}
-                    </li>
-                    <li className="challenge">
-                        {/* TODO: props.challenge */}
-                    </li>
-                </ul>
-            </section>
-        </article>
-    )
+                <p className="project-description">{this.props.description}</p>
+                <button id="click-for-more" className='custom-button' onClick={this.handleClick}>more details</button>
+                <div id="more-details-wrapper">
+                    {this.state.moreDetails ? 
+                        <MoreDetails details={this.props}/>
+                        : null
+                    }
+                </div>
+            </article>
+        )
+    }
 }
 
 Project.propTypes = {
