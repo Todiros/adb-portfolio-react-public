@@ -2,27 +2,30 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const MoreDetails = props => {
+    const {status, type, challenges} = props.details
+
     return (
-        <section id='more-details'>
-            <ul className="status-type">
-                <li className="status">
-                    <h5 id="status-heading">status</h5>
-                    {/* TODO: props.status */}
-                </li>
-                <li className="type">
-                    <h5 id="type-heading">type</h5>
-                    {/* TODO: props.type */}
-                </li>
-            </ul>
-            <ul className="challenges">
-                <li className="challenge">
-                    {/* TODO: props.challenge */}
-                </li>
-                <li className="challenge">
-                    {/* TODO: props.challenge */}
-                </li>
-            </ul>
-        </section>
+        <div className="more-details-wrapper">
+            <section className='more-details'>
+                <ul className="status-type">
+                    <li className="status">
+                        <span className="status-heading">status: </span>
+                        { status }
+                    </li>
+                    <li className="type">
+                        <span className="type-heading">type: </span>
+                        { type }
+                    </li>
+                </ul>
+                <ul className="challenges">
+                    {
+                        challenges.map(challenge => 
+                            <li className="challenge"> {challenge}</li>
+                        )
+                    }
+                </ul>
+            </section>
+        </div>
     )
 }
 

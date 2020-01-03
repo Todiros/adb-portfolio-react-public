@@ -1,21 +1,27 @@
 .work-project
         display: inherit
-        grid-template-rows: repeat(4, auto)
+        grid-template-rows: 15% 1fr 10% 1fr auto
         justify-items: center
         margin: 0 0.5em 2em
 
-        #project-title
-            margin: 1em 0
+        .project-title
+            display: grid
+            grid-row: 1
+            margin: 0 //1em 0
+            align-items: center
 
         .project-thumbnail
+            grid-row: 2
             width: 100%
             height: auto
             padding: 0 1em
 
-        ul#project-links
+        ul.project-links
+            grid-row: 3
             list-style: none
             padding: 0
-            margin: 0.6em 0
+            margin: 0 //0.6em 0
+            align-self: center
 
             li
                 display: inline
@@ -23,15 +29,22 @@
                 padding: 0 0.5em
                 margin: 0 0.5em
         
-        #more-details-wrapper
+        .click-for-more
+            grid-row: 5
+            margin: 0.5em
+        
+        .more-details-wrapper
             position: relative
             width: 100%
             height: auto
 
-            #more-details
+            .more-details
                 position: absolute
                 background: $colorBlackBg
                 width: 100%
+
+                .status-type, .challenges
+                    text-align: left
 
                 .status-type>li 
                     list-style: none
