@@ -1,16 +1,23 @@
 #work-page-wrapper
     display: grid
     grid-template-columns: 1fr
-    margin: 0
+    grid-row-gap: 2em
+    grid-column-gap: 1em
+    margin: 0 1.5em 1.5em 1.5em
+
+    // MOBILE PORTRAIT ONLY
+    @media screen and (max-width: $tablet) and (orientation: portrait)
+        grid-row-gap: 1em
+        margin: 0
 
     // MOBILE LANDSCAPE ONLY
     @media screen and (orientation: landscape)
-        margin: 0 1.5em
+        grid-row-gap: 1em
+        // margin: 0 1.5em 1.5em 1.5em
 
     // TABLET
     @media screen and (min-width: $tablet) and (max-width: $desktop - 1) and (min-height: $tablet)
         grid-template-columns: 1fr 1fr
-        margin: 0 1.5em
 
     // DESKTOP
     @media screen and (min-width: $desktop) and (max-width: $widescreen - 1)
