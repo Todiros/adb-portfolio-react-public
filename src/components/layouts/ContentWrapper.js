@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom'
 
 import Routes from '../routes/routes'
 
+// The container outside of the navigation and header
 const ContentWrapper = () => {
     return (
         <main id="content-wrapper">

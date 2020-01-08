@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+// The details section of the project component (Project.js)
 const MoreDetails = props => {
     const {status, type, challenges} = props.details
 

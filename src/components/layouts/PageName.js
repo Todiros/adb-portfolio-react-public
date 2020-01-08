@@ -3,6 +3,14 @@ import { Switch, Route } from 'react-router-dom'
 import Routes from '../routes/routes'
 
 const PageName = (props) => {
+    /* 
+        The component has been used twice -
+        in the header as secondary navagation (Header.js) 
+        and by itself as the main navigation (Layout.js).
+        The positionClass variable dynimically sets the 
+        nav element class based on the component position.
+        Different styling is used for the different classes (nav.sass) 
+    */
     const positionClass = props.position === "header" ? "header" : "page"
 
     return (

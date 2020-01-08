@@ -5,7 +5,7 @@ import MoreDetails from './MoreDetails'
 
 class Project extends Component {
     state = {
-        moreDetails: false
+        moreDetails: false // true - more details window has been toggled on
     }
 
     handleClick = e => {

@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+// The CV sections within the About page (AboutPage.js)
 const AboutSection = (props) => {
     return (
         <section id={props.sectionId}>

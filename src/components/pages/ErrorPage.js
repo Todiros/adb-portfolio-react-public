@@ -1,6 +1,7 @@
 import React from 'react'
 import _404 from '../../res/404_2.svg'
 
+// Any attempt to access non-existing page will lead to this page
 const ErrorPage = () => {
     return (
         <div id="error-page-wrapper">
