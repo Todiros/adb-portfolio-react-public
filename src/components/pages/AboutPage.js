@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutSection from '../layouts/AboutSection'
+import { Link } from 'react-router-dom'
 
 const LoremIpsumIntro = () => <React.Fragment>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis pretium urna, vel tincidunt ante. 
@@ -27,17 +28,18 @@ const AboutPage = () => {
                 </p>
             </section>
             <div id='cv-wrapper'>
-
-                <AboutSection sectionId='cv-education' sectionTitle='Education'>
+                <AboutSection sectionId='cv-skills' sectionTitle='Skills, Traits & Talents'>
+                    
                 </AboutSection>
                 <AboutSection sectionId='cv-projects' sectionTitle='Projects'>
+                    <Link to={`/work`} id='about-page-work-button' className='page-link'>go to projects</Link>
+                </AboutSection>
+                <AboutSection sectionId='cv-education' sectionTitle='Education'>
                 </AboutSection>
                 <AboutSection sectionId='cv-certificates' sectionTitle='Certificates'>
                 </AboutSection>
-                <AboutSection sectionId='cv-skills' sectionTitle='Skills, Traits & Talents'>
-                    <LoremIpsumCV />
-                </AboutSection>
                 <AboutSection sectionId='cv-passions' sectionTitle='Passions'>
+                    <LoremIpsumCV />
                 </AboutSection>
                 
                 <div id='button-wrapper'>
