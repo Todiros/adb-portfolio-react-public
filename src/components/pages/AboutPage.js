@@ -28,9 +28,16 @@ const AboutPage = () => {
                 </p>
             </section>
             <div id='cv-wrapper'>
-                <AboutSection sectionId='cv-skills' sectionTitle='Skills, Traits & Talents'>
+                <AboutSection sectionId='cv-skills' sectionTitle='Skills'>
                     
                 </AboutSection>
+                <AboutSection sectionId='cv-traits' sectionTitle='Traits'>
+                    
+                </AboutSection>
+                <AboutSection sectionId='cv-talents' sectionTitle='Talents'>
+                    
+                </AboutSection>
+                
                 <AboutSection sectionId='cv-projects' sectionTitle='Projects'>
                     <Link to={`/work`} id='about-page-work-button' className='page-link'>go to projects</Link>
                 </AboutSection>
