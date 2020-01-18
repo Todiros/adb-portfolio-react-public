@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutSection from '../layouts/AboutSection'
+import SkillList from '../layouts/SkillList'
 import { Link } from 'react-router-dom'
 
 const LoremIpsumIntro = () => <React.Fragment>
@@ -28,25 +29,31 @@ const AboutPage = () => {
                 </p>
             </section>
             <div id='cv-wrapper'>
+                    
                 <AboutSection sectionId='cv-skills' sectionTitle='Skills'>
-                    
+                    <SkillList listId='skill-wrapper' listItemClass='skill-item'>
+                        {['Test', 'Test 2', 'Test 3']}
+                    </SkillList>
                 </AboutSection>
-                <AboutSection sectionId='cv-traits' sectionTitle='Traits'>
-                    
+                
+                <AboutSection sectionId='cv-traits' sectionTitle='Traits'>    
                 </AboutSection>
-                <AboutSection sectionId='cv-talents' sectionTitle='Talents'>
-                    
+                
+                <AboutSection sectionId='cv-talents' sectionTitle='Talents'>    
+                </AboutSection>
+
+                <AboutSection sectionId='cv-certificates' sectionTitle='Certificates'>
+                </AboutSection>
+                
+                <AboutSection sectionId='cv-education' sectionTitle='Education'>
+                </AboutSection> 
+                
+                <AboutSection sectionId='cv-passions' sectionTitle='Passions'>
+                    <LoremIpsumCV />
                 </AboutSection>
                 
                 <AboutSection sectionId='cv-projects' sectionTitle='Projects'>
                     <Link to={`/work`} id='about-page-work-button' className='page-link'>go to projects</Link>
-                </AboutSection>
-                <AboutSection sectionId='cv-education' sectionTitle='Education'>
-                </AboutSection>
-                <AboutSection sectionId='cv-certificates' sectionTitle='Certificates'>
-                </AboutSection>
-                <AboutSection sectionId='cv-passions' sectionTitle='Passions'>
-                    <LoremIpsumCV />
                 </AboutSection>
                 
                 <div id='button-wrapper'>
