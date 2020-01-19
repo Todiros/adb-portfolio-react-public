@@ -13,27 +13,28 @@
         grid-template-columns: repeat(6, 1fr)
         margin: 0.6em
 
+        #skill-wrapper
+            display: flex
+            flex-wrap: wrap
+            margin: 0
+            padding: 0
+            justify-content: center
+            align-content: center
+
+            .skill-item
+                display: inline
+                list-style: none
+                margin: 0.5em
+                font-style: italic
+        
         #cv-skills
             grid-row: 1
             grid-column: 1 / span 2
-
-            #skill-wrapper
-                display: flex
-                flex-wrap: wrap
-                align-content: center
-                justify-content: center
-                margin: 0
-                padding: 0
-
-                .skill-item
-                    list-style: none
-                    display: inline
-                    margin: 0.5em
         
         #cv-traits
             grid-row: 1
             grid-column: 3 / span 2
-        
+
         #cv-talents
             grid-row: 1
             grid-column: 5 / span 2
