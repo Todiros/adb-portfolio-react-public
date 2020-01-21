@@ -19,7 +19,11 @@ const LoremIpsumIntro = () => <React.Fragment>
 const LoremIpsumCV = () => <React.Fragment>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus lectus nec justo suscipit auctor. Fusce mollis sapien eget quam sodales, id pharetra magna suscipit. Nulla facilisi. Integer nec nulla mi. Nam placerat nisi venenatis, consequat mauris et, ornare libero. Suspendisse potenti. Morbi turpis elit, aliquet consequat odio nec, scelerisque.
 </React.Fragment>
-const DummySkillArray = () => ["Skill000", "Skill001", "Skill002", "Skill003", "Skill004", "Skill005", "Skill006", "Skill007", "Skill008", "Skill009", "Skill010", "Skill011", "Skill012", "Skill013", "Skill014"]
+const DummySkillArray = () => [
+"Skill000", "Skill001", "Skill002", "Skill003", "Skill004", 
+"Skill005", "Skill006", "Skill007", "Skill008", "Skill009", 
+"Skill010", "Skill011", "Skill012", "Skill013", "Skill014"
+]
 
 const AboutPage = () => {
     return (
