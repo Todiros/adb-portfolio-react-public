@@ -6,7 +6,7 @@ const AboutSection = (props) => {
     return (
         <section id={props.sectionId}>
             <h4>{props.sectionTitle}</h4>
-            <article>{props.children}</article>
+            {props.children}
         </section>
     )
 }
