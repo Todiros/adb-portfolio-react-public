@@ -19,10 +19,23 @@ const LoremIpsumIntro = () => <React.Fragment>
 const LoremIpsumCV = () => <React.Fragment>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus lectus nec justo suscipit auctor. Fusce mollis sapien eget quam sodales, id pharetra magna suscipit. Nulla facilisi. Integer nec nulla mi. Nam placerat nisi venenatis, consequat mauris et, ornare libero. Suspendisse potenti. Morbi turpis elit, aliquet consequat odio nec, scelerisque.
 </React.Fragment>
-const DummySkillArray = () => [
+const DummySkillsArray = () => [
 "Skill000", "Skill001", "Skill002", "Skill003", "Skill004", 
 "Skill005", "Skill006", "Skill007", "Skill008", "Skill009", 
 "Skill010", "Skill011", "Skill012", "Skill013", "Skill014"
+]
+const DummyTraitsArray = () => [
+    "Trait000", "Trait001", "Trait002", "Trait003", 
+    "Trait004", "Trait005", "Trait006", "Trait007", 
+    "Trait008", "Trait009", "Trait010", "Trait011", 
+    "Trait012"
+]
+const DummyTalentsArray = () => [
+    "Talent000", "Talent001", "Talent002", "Talent003", 
+    "Talent004", "Talent005", "Talent006", "Talent007", 
+    "Talent008", "Talent009", "Talent010", "Talent011", 
+    "Talent012", "Talent013", "Talent014", "Talent015", 
+    "Talent016", "Talent017", "Talent018", "Talent019"
 ]
 
 const AboutPage = () => {
@@ -36,19 +49,19 @@ const AboutPage = () => {
             <div id='cv-wrapper'>
                 <AboutSection sectionId='cv-skills' sectionTitle='Skills'>    
                     <SkillList listId='skill-wrapper' listItemClass='skill-item'>
-                        {DummySkillArray()}
+                        {DummySkillsArray()}
                     </SkillList>
                 </AboutSection>
 
                 <AboutSection sectionId='cv-traits' sectionTitle='Traits'>
                     <SkillList listId='skill-wrapper' listItemClass='skill-item'>
-                        {DummySkillArray()}
+                        {DummyTraitsArray()}
                     </SkillList>    
                 </AboutSection>
                 
                 <AboutSection sectionId='cv-talents' sectionTitle='Talents'>    
                     <SkillList listId='skill-wrapper' listItemClass='skill-item'>
-                        {DummySkillArray()}
+                        {DummyTalentsArray()}
                     </SkillList>
                 </AboutSection>
 
