@@ -67,9 +67,19 @@ const AboutPage = () => {
                 </AboutSection>
 
                 <AboutSection sectionId='cv-certificates' sectionTitle='Certificates'>
+                    <ul id="certificates-wrapper">
+                        <li className="certificate-item">Certificate 1</li>
+                        <li className="certificate-item">Certificate 2</li>
+                        <li className="certificate-item">Certificate 3</li>
+                    </ul> 
                 </AboutSection>
                 
                 <AboutSection sectionId='cv-education' sectionTitle='Education'>
+                    <ul id="education-wrapper">
+                        <li className="education-item">School 1</li>
+                        <li className="education-item">School 2</li>
+                        <li className="education-item">School 3</li>
+                    </ul>
                 </AboutSection>
                 
                 <AboutSection sectionId='cv-passions' sectionTitle='Passions'>
