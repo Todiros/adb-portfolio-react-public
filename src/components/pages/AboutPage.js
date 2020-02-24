@@ -1,7 +1,7 @@
 import React from 'react'
 import AboutSection from '../layouts/AboutSection'
 import SkillList from '../layouts/SkillList'
-import Certificate from '../layouts/Certificate'
+import CertificatesContainer from '../layouts/CertificatesContainer'
 import { Link } from 'react-router-dom'
 
 const LoremIpsumIntro = () => <React.Fragment>
@@ -68,17 +68,7 @@ const AboutPage = () => {
                 </AboutSection>
 
                 <AboutSection sectionId='cv-certificates' sectionTitle='Certificates'>
-                    <ul id="certificates-wrapper">
-                        <li className="certificate-item">
-                            <Certificate />
-                        </li>
-                        <li className="certificate-item">
-                            <Certificate />
-                        </li>
-                        <li className="certificate-item">
-                            <Certificate />
-                        </li>
-                    </ul> 
+                    <CertificatesContainer />
                 </AboutSection>
                 
                 <AboutSection sectionId='cv-education' sectionTitle='Education'>
