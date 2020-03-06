@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import AboutSection from '../layouts/AboutSection'
 import SkillList from '../layouts/SkillList'
 import CertificatesContainer from '../layouts/CertificatesContainer'
-import { Link } from 'react-router-dom'
+import EducationContainer from '../layouts/EducationContainer'
 
 const LoremIpsumIntro = () => <React.Fragment>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis pretium urna, vel tincidunt ante. 
@@ -72,11 +73,7 @@ const AboutPage = () => {
                 </AboutSection>
                 
                 <AboutSection sectionId='cv-education' sectionTitle='Education'>
-                    <ul id="education-wrapper">
-                        <li className="education-item">School 1</li>
-                        <li className="education-item">School 2</li>
-                        <li className="education-item">School 3</li>
-                    </ul>
+                    <EducationContainer />
                 </AboutSection>
                 
                 <AboutSection sectionId='cv-passions' sectionTitle='Passions'>
