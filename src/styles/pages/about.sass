@@ -58,13 +58,14 @@
             padding: 0 1em
             
             #education-wrapper
+                display: grid
                 padding: 0
-                margin: 0
+                margin: 0 auto
 
                 .education-item
                     list-style: none
-                    justify-content: start
-                    margin: 1em 0
+                    justify-self: center
+                    margin: 0.5em
 
         #cv-projects
             padding-bottom: 0.5em
@@ -79,6 +80,17 @@
         #about-page-work-button
             margin: 0.5em
         
+
+        // TABLET LAYOUT 
+        @media screen and (min-width: $tablet) and (max-width: $desktop - 1) and (min-height: $tablet)
+            #cv-education > #education-wrapper
+                grid-template-columns: auto
+                grid-template-rows: 1fr
+
+                .education-item
+                    grid-row: 1
+                    grid-column: auto
+
         // DESKTOP LAYOUT 
         @media screen and (min-width: $desktop)
             grid-template-columns: repeat(6, 1fr)
