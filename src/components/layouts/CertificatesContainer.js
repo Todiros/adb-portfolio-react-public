@@ -8,8 +8,8 @@ const certArr = () => [0, 1, 2]
 const CertificatesContainer = props => {
     return (
         <ul id="certificates-wrapper">
-            {certArr().map(() => 
-                <li className="certificate-item">
+            {certArr().map((id) => 
+                <li key={id} className="certificate-item">
                     <Certificate />
                 </li>
             )}

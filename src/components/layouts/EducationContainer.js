@@ -8,8 +8,8 @@ const eduArr = () => [0, 1, 2]
 const EducationContainer = props => {
     return (
         <ul id="education-wrapper">
-            {eduArr().map(() => 
-                <li className="education-item">
+            {eduArr().map((id) => 
+                <li key={id} className="education-item">
                     <Education />
                 </li>
             )}
