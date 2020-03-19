@@ -1,6 +1,23 @@
 // Styling for the about page
 // Dependencies: _vars.sass
 
+@mixin cert-edu-inline-styling
+    #cv-certificates > #certificates-wrapper
+        grid-template-columns: auto
+        grid-template-rows: 1fr
+
+        .certificate-item
+            grid-column: auto
+            grid-row: 1
+    
+    #cv-education > #education-wrapper
+        grid-template-columns: auto
+        grid-template-rows: 1fr
+
+        .education-item
+            grid-column: auto
+            grid-row: 1
+
 #about-page-wrapper
     display: grid
     grid-template-rows: auto 1fr
@@ -43,9 +60,8 @@
             padding: 0 1em
 
             #certificates-wrapper
-                display: flex
-                flex-wrap: wrap
-                justify-content: center
+                display: grid
+                justify-content: space-evenly
                 padding: 0
                 margin: 0
 
@@ -58,8 +74,9 @@
             
             #education-wrapper
                 display: grid
+                justify-content: space-evenly
                 padding: 0
-                margin: 0 auto
+                margin: 0
 
                 .education-item
                     list-style: none
@@ -82,13 +99,8 @@
 
         // TABLET LAYOUT 
         @media screen and (min-width: $tablet) and (max-width: $desktop - 1) and (min-height: $tablet)
-            #cv-education > #education-wrapper
-                grid-template-columns: auto
-                grid-template-rows: 1fr
+            @include cert-edu-inline-styling
 
-                .education-item
-                    grid-row: 1
-                    grid-column: auto
 
         // DESKTOP LAYOUT 
         @media screen and (min-width: $desktop)
@@ -129,6 +141,9 @@
                 grid-row: 4
                 grid-column: 1 / span 6
 
+        // WIDESCREEN (LG DESKTOP, LG TABLET)
+        @media screen and (min-width: $widescreen)
+            @include cert-edu-inline-styling
         
         
         
