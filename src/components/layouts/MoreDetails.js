@@ -21,7 +21,7 @@ const MoreDetails = props => {
                 <ul className="challenges">
                     {
                         challenges.map(challenge => 
-                            <li className="challenge"> {challenge}</li>
+                            <li className="challenge" key={challenge}> {challenge}</li>
                         )
                     }
                 </ul>
