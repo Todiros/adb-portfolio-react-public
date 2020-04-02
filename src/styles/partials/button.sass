@@ -5,9 +5,14 @@
     text-decoration: none
     font-size: $fontSizeButtonMin
 
+    &:hover
+        color: $colorTextG
+        transition: 0.5s
+
 @mixin buttonStyle
     @include buttonStyleMin
-    border: 1px solid $colorText
+    color: $colorTextG
+    border: 1px solid $colorTextG
     border-radius: 5%
     padding: 0.4em 0.8em
     font-size: $fontSizeButtonMax
@@ -17,13 +22,12 @@
 
 .page-link
     @include buttonStyle
-    padding: 0.1em 0.6em
 
 .page-link-minimal
     @include buttonStyleMin
 
 .page-link, .custom-button
     &:hover
-        background: $colorText
+        background: $colorTextG
         color: $colorBlackBgAlt
         transition: 0.5s
