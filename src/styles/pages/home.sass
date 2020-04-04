@@ -2,11 +2,6 @@
     display: grid
     grid-template-columns: 30% 1fr
 
-    @media screen and (max-width: $tablet)
-        grid-template-columns: auto
-
-        #landing-wrapper
-            display: none
 
     #intro-wrapper, #landing-wrapper
         display: grid
@@ -21,12 +16,15 @@
 
         #home-image
             display: grid
-            position: absolute
+            position: fixed
             max-height: 90vmin
             max-width: 70vmin
             transform: matrix(-1, 0, 0, 1, 80, 20)
             bottom: 0
             right: 0
+            z-index: -1
+            // changes SVG color to $colorBlackBg
+            filter: invert(0%) sepia(30%) saturate(3%) hue-rotate(316deg) brightness(90%) contrast(81%)
 
     #home-page-work-button
         margin: 0
@@ -37,5 +35,17 @@
     
     #short-intro
         margin-bottom: 1em
+
+    @media screen and (max-width: $tablet)
+        grid-template-columns: auto
+
+        #landing-wrapper
+            display: none
+
+    // TABLET
+    @media screen and (min-width: $tablet) and (max-width: $desktop - 1)
+        // Moves the entire intro block (greeting, introduction and button) above the center to compensate for screen with greater heights
+        #home-page-work-button, #welcome-msg, #short-intro
+            transform: translateY(-8em)
 
         
