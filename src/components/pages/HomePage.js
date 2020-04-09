@@ -1,5 +1,5 @@
 import React from 'react'
-import _MyPhoto from '../../res/home_face.svg'
+import _MyPhoto from '../../res/face-v2.svg'
 import { Link } from 'react-router-dom'
 
 const HomePage = () => {
