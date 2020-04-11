@@ -12,6 +12,13 @@
     #logo
         margin: 0 auto
         height: initial
+    
+    .logo-full
+        display: none
+
+    .logo-mobile
+        max-height: 100%
+        padding-bottom: 0.5vmin
 
     // MOBILE
     @media screen and (max-width: $tablet - 1)
@@ -19,9 +26,6 @@
         
         p 
             margin: 0
-
-        #logo
-            height: 100%
 
     // TABLET
     @media screen and (min-width: $tablet) and (max-width: $desktop - 1) and (min-height: $tablet)
@@ -33,6 +37,9 @@
         background: none
         grid-row: 1
         grid-column: 2
+
+        .logo-mobile
+            display: none
 
     // WIDE DESKTOPS
     @media screen and (min-width: $widescreen)
@@ -46,9 +53,8 @@
             grid-column: 1
             background: $colorBlackBg
 
-        #logo 
-            grid-column: 2
-            font-size: 2em
+        .logo-mobile
+            display: none
 
     // LANDSCAPE (MOBILE, TABLET, DESKTOP)
     @media screen and (max-height: 770px) and (orientation: landscape)
@@ -62,12 +68,8 @@
             grid-column: 1
             background: $colorBlackBg
 
-        #logo 
-            grid-column: 2
-            font-size: 1.2em
+        .logo-mobile
             position: absolute
-            margin-left: 4.5vw
-            // white-space: nowrap
-            // overflow: hidden
-            // width: 100%
-            // transform: translateX(-35px)
+            padding: 0
+            max-height: 10vmin
+            transform: translate(-40%, 20%)

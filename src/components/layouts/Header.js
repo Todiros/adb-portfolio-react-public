@@ -1,16 +1,27 @@
 import React from 'react'
-
 import Nav from './Nav'
 import PageName from './PageName'
+import _MyLogoCropped from '../../res/adb.svg'
+import _MyLogoFull from '../../res/adbstudios.svg'
 
 const Header = () => {
     return (
         <header id="header">
             <span className='header-background'></span>
-            <img src='https://via.placeholder.com/120x60' 
+            <img 
+                src={_MyLogoCropped} 
+                alt='ADB Studios'
                 id='logo' 
-                className='logo-mobile' 
-                alt='ADB Studios'/>
+                className='logo-mobile'
+            />
+
+            <img 
+                src={_MyLogoFull} 
+                alt='ADB Studios' 
+                id='logo'
+                className='logo-full'
+            />
+
             <PageName position={'header'}/>
             <Nav position={'header'}/>
         </header>

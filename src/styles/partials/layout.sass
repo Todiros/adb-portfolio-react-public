@@ -22,5 +22,11 @@
     // LANDSCAPE (MOBILE, SM-TABLET)
     @media screen and (max-height: 770px) and (orientation: landscape)
         grid-template-rows: minmax(100px, 18vh) 1fr
-        grid-template-columns: minmax(65px, 6vw) minmax(100px, 10vw) 1fr
+        /* 12vw for page-name column
+            -   allows page name to fit
+                properly in cotact page
+            -   adds reasonable space
+                between the logo and 
+                the main content */
+        grid-template-columns: minmax(65px, 6vw) minmax(100px, 12vw) 1fr
         min-height: 320px
