@@ -20,6 +20,8 @@ Somewhat stable development version is available at www.adbstudios.cc/dev. It's 
 
 *Icons:* 
 [404 Icon by Freepik](https://www.flaticon.com/free-icon/error-404_1034633)
+[Nav Icons](#)
+[Social Nav Icons](#)
 
 *Rest:* 
 Me, Myself & I
