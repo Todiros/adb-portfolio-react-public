@@ -99,7 +99,6 @@
 
                 li 
                     font-size: 0.8em
-                    // margin: 0 1em 1em 1em
                     margin: 0
 
 #social-nav-container
@@ -112,7 +111,10 @@
         margin: 1em 0
 
         #social-nav-icon
-            width: 2vmin
+            width: 1.5vmin
+            
+            &:hover
+                filter: invert(48%) sepia(39%) saturate(626%) hue-rotate(44deg) brightness(91%) contrast(93%)
 
     @media screen and (min-width: $desktop) and (max-width: $widescreen - 1)
         &.header
