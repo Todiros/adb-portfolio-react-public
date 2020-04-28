@@ -111,7 +111,7 @@
         margin: 1.5em 1.5em
 
         #social-nav-icon
-            width: 2.5vw
+            width: 3vh
             border: 1px solid #58595B
             border-radius: 5%
             padding: 0.2em
@@ -119,6 +119,7 @@
             &:hover
                 filter: invert(48%) sepia(39%) saturate(626%) hue-rotate(44deg) brightness(91%) contrast(93%)
 
+    // DESKTOP
     @media screen and (min-width: $desktop) and (max-width: $widescreen - 1)
         &.header
             display: grid
@@ -136,3 +137,6 @@
             display: grid
             grid-row: 2
             align-self: end
+
+            .social-nav > li
+                margin: 0.3em
