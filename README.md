@@ -19,9 +19,9 @@ Somewhat stable development version is available at www.adbstudios.cc/dev. It's 
 ### Credits
 
 *Icons:* 
-[404 Icon by Freepik](https://www.flaticon.com/free-icon/error-404_1034633)
-[Main Nav Icons](https://www.producthunt.com/posts/ego-icons-2)
-[Social Nav Icons](https://www.iconfinder.com/fiveicons)
+* [404 Icon by Freepik](https://www.flaticon.com/free-icon/error-404_1034633)
+* [Main Nav Icons](https://www.producthunt.com/posts/ego-icons-2)
+* [Social Nav Icons](https://www.iconfinder.com/fiveicons)
 
 *Rest:* 
 Me, Myself & I
