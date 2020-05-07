@@ -17,12 +17,15 @@
             a
                 align-self: center
 
-            #nav-icon
-                height: 5.5vh
-                padding: 0.4em
-
-                &:hover
+                &:hover, &:active
                     filter: invert(48%) sepia(39%) saturate(626%) hue-rotate(44deg) brightness(91%) contrast(93%)
+
+                #nav-icon
+                    width: calc(10px + 4vh)
+                    padding: 0.4em
+
+                // &:hover
+                //     filter: invert(48%) sepia(39%) saturate(626%) hue-rotate(44deg) brightness(91%) contrast(93%)
 
     &.header
         display: none !important
@@ -60,6 +63,9 @@
                 li 
                     margin: 0
 
+                    a > #nav-icon
+                        width: 5.5vh
+
     // WIDE DESKTOPS
     @media screen and (min-width: $widescreen)
         &.header
@@ -78,6 +84,9 @@
 
                 li 
                     margin: 1em
+
+                    a > #nav-icon
+                        width: calc(30px + 1.6vw)
 
     // LANDSCAPE (MOBILE, TABLET, DESKTOP)
     @media screen and (max-height: 770px) and (orientation: landscape)
@@ -99,6 +108,9 @@
                 li 
                     font-size: 0.8em
                     margin: 0
+
+                    a > #nav-icon
+                        width: 5vw
 
 #social-nav-container
     display: none
