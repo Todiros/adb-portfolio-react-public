@@ -1,6 +1,6 @@
 import React from 'react'
 import SocialNav from './SocialNav'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 import _homeIcon from '../../res/menu/home-page-icon.svg'
 import _workIcon from '../../res/menu/work-page-icon.svg'
@@ -23,44 +23,44 @@ const Nav = (props) => {
             <nav id='nav-container' className={positionClass}>
                 <ul id="nav">
                     <li>
-                        <Link to={`/`}>
+                        <NavLink exact to={`/`} activeClassName={'nav-icon-active'}>
                             <img 
                                 src={_homeIcon} 
                                 alt='nav-home'
                                 id='nav-icon' 
                                 className='nav-home-icon'
                             />
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to={`/work`}>
+                        <NavLink to={`/work`} activeClassName='nav-icon-active'>
                             <img 
                                 src={_workIcon} 
+                                alt='nav-work'
                                 id='nav-icon' 
                                 className='nav-work-icon' 
-                                alt='nav-work'
                             />
-                        </Link> 
+                        </NavLink> 
                     </li>
                     <li>
-                        <Link to={`/contact`}>
+                        <NavLink to={`/contact`} activeClassName='nav-icon-active'>
                             <img 
                                 src={_contactIcon} 
+                                alt='nav-contact'
                                 id='nav-icon' 
                                 className='nav-contact-icon' 
-                                alt='nav-contact'
                             />
-                        </Link> 
+                        </NavLink> 
                     </li>
                     <li>
-                        <Link to={`/about`}>
+                        <NavLink to={`/about`} activeClassName='nav-icon-active'>
                             <img 
                                 src={_aboutIcon} 
+                                alt='nav-about'
                                 id='nav-icon' 
                                 className='nav-about-icon' 
-                                alt='nav-about'
                             />
-                        </Link> 
+                        </NavLink> 
                     </li>
                 </ul>
                 <SocialNav position={positionClass} />

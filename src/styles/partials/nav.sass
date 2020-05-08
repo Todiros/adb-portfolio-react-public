@@ -17,15 +17,12 @@
             a
                 align-self: center
 
-                &:hover, &:active
+                &:hover, &.nav-icon-active
                     filter: invert(48%) sepia(39%) saturate(626%) hue-rotate(44deg) brightness(91%) contrast(93%)
-
+                
                 #nav-icon
                     width: calc(10px + 4vh)
                     padding: 0.4em
-
-                // &:hover
-                //     filter: invert(48%) sepia(39%) saturate(626%) hue-rotate(44deg) brightness(91%) contrast(93%)
 
     &.header
         display: none !important
@@ -86,7 +83,7 @@
                     margin: 1em
 
                     a > #nav-icon
-                        width: calc(30px + 1.6vw)
+                        width: calc(30px + 1.5vw)
 
     // LANDSCAPE (MOBILE, TABLET, DESKTOP)
     @media screen and (max-height: 770px) and (orientation: landscape)
