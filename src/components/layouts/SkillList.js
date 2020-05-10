@@ -5,7 +5,7 @@ const SkillList = props => {
     return (
         <ul id={props.listId}>
             {props.children.map((item) => 
-                <li className={props.listItemClass} key={item}>{item}</li>
+                <li className={props.listItemClass} key={item.id}>{item.Text}</li>
             )}
         </ul>
     )
@@ -13,8 +13,7 @@ const SkillList = props => {
 
 SkillList.propTypes = {
     listId: PropTypes.string.isRequired,
-    listItemClass: PropTypes.string.isRequired,
-    listItemContent: PropTypes.array
+    listItemClass: PropTypes.string.isRequired
 }
 
 export default SkillList

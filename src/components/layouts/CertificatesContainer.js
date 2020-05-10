@@ -3,14 +3,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Certificate from '../layouts/Certificate'
 
-const certArr = () => [0, 1, 2]
-
 const CertificatesContainer = props => {
     return (
         <ul id="certificates-wrapper">
-            {certArr().map((id) => 
-                <li key={id} className="certificate-item">
-                    <Certificate />
+            {props.certificates.map((cert) => 
+                <li key={cert.id} className="certificate-item">
+                    <Certificate certificate={cert}/>
                 </li>
             )}
         </ul> 
@@ -18,7 +16,7 @@ const CertificatesContainer = props => {
 }
 
 CertificatesContainer.propTypes = {
-
+    certificates: PropTypes.array.isRequired
 }
 
 export default CertificatesContainer
