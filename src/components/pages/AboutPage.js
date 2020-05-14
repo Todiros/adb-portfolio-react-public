@@ -46,7 +46,7 @@ const AboutPage = () => {
                 </AboutSection>
                 
                 <AboutSection sectionId='cv-passions' sectionTitle='Passions'>
-                    {CV.Passions[3].desc}
+                    {CV.Passions[3].Desc}
                 </AboutSection>
                 
                 <AboutSection sectionId='cv-projects' sectionTitle='Projects'>

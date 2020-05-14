@@ -1,37 +1,37 @@
 {
-    "Intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis pretium urna, vel tincidunt ante. Cras porttitor sit amet leo sed gravida. Fusce aliquet, justo ac fringilla maximus, augue lorem pharetra lectus, eget tincidunt nisl nunc dignissim odio. Nunc sem turpis, mattis nec risus vel, iaculis vestibulum dui. Ut eros nisl, venenatis id faucibus ut, facilisis ut dolor. Praesent pretium justo eget eros tempor eleifend. Nullam vestibulum lectus sit amet nibh laoreet varius. Vestibulum posuere lorem in luctus viverra. Integer lacinia, tortor id congue pellentesque, augue nisl tincidunt urna, eu accumsan arcu nunc eget enim. Aliquam porta lacus nec porttitor eleifend. Donec non nulla sed elit aliquet lacinia vel vel dui. Proin eu nisi tortor. Maecenas cursus mauris erat. Nullam dui velit, tempor at neque quis, hendrerit congue urna. Sed ac vulputate ante. Etiam sit amet enim sed leo ultricies sodales. Etiam rutrum arcu purus, at volutpat ligula bibendum non.",
+    "Intro": "Big believer in constant self-improvement and growth. Productivity freak and a philomath with an eclectic range of interests. I’ve been into the world of programming since 2012. I started with C++, then Java, .NET (C#) and in later years JavaScript, PHP and Python. My focus in the field right now is Full Stack Web Development with expanding interest in Mobile Development, Machine Learning and Artificial Intelligence.",
     "Abilities": {
         "Skills": [
            {
-               "id": 0,
+               "Id": 0,
                "Text": "JavaScript",
                "Type": "Front-End"
            },
            {
-               "id": 1,
+               "Id": 1,
                "Text": "Node.JS",
                "Type": "Back-End"
            },
            {
-               "id": 2,
+               "Id": 2,
                "Text": "CSS (SASS)",
                "Type": "Front-End"
            },
            {
-               "id": 3,
+               "Id": 3,
                "Text": "CSS Grid",
                "Type": "Front-End"
            },
            {
-               "id": 4,
-               "Text": "JavaScript",
-               "Type": "Front-End"
+               "Id": 4,
+               "Text": "Git",
+               "Type": "Dev Tools"
            }
         ]
     },
     "Certificates": [
         {
-            "id": 0,
+            "Id": 0,
             "Title": "Nanodegree",
             "Institution": "Udacity",
             "Date": "05.2019",
@@ -39,7 +39,7 @@
             "Link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         },
         {
-            "id": 1,
+            "Id": 1,
             "Title": "MS DB",
             "Institution": "Software University",
             "Date": "03.2017",
@@ -47,7 +47,7 @@
             "Link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         },
         {
-            "id": 2,
+            "Id": 2,
             "Title": "Node.JS Course",
             "Institution": "Udemy",
             "Date": "08.2020",
@@ -57,33 +57,37 @@
     ],
     "Education": [
         {
-            "id": 0,
+            "Id": 0,
             "Institution": "Udacity",
             "Title": "Front-End Web Developer",
             "Date": "05.2019",
-            "Img": "https://urltoimg.png"
+            "Img": "https://via.placeholder.com/70"
         }
     ],
     "Passions": [
         {
-            "id": 0,
-            "passion": "Weightlifting",
-            "desc": "Nullam dui velit, tempor at neque quis, hendrerit congue urna. Sed ac vulputate ante. Etiam sit amet enim sed leo ultricies sodales."
+            "Id": 0,
+            "Passion": "Weightlifting",
+            "Desc": "Nullam dui velit, tempor at neque quis, hendrerit congue urna. Sed ac vulputate ante. Etiam sit amet enim sed leo ultricies sodales.",
+            "Img": "https://via.placeholder.com/40"
         },
         {
-            "id": 1,
-            "passion": "Rockclimbing",
-            "desc": "Nullam dui velit, tempor at neque quis, hendrerit congue urna. Sed ac vulputate ante. Etiam sit amet enim sed leo ultricies sodales."
+            "Id": 1,
+            "Passion": "Rockclimbing",
+            "Desc": "Nullam dui velit, tempor at neque quis, hendrerit congue urna. Sed ac vulputate ante. Etiam sit amet enim sed leo ultricies sodales.",
+            "Img": "https://via.placeholder.com/40"
         },
         {
-            "id": 2,
-            "passion": "Music",
-            "desc": "Nullam dui velit, tempor at neque quis, hendrerit congue urna. Sed ac vulputate ante. Etiam sit amet enim sed leo ultricies sodales."
+            "Id": 2,
+            "Passion": "Music",
+            "Desc": "Nullam dui velit, tempor at neque quis, hendrerit congue urna. Sed ac vulputate ante. Etiam sit amet enim sed leo ultricies sodales.",
+            "Img": "https://via.placeholder.com/40"
         },
         {
-            "id": 3,
-            "passion": "Dummy",
-            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus lectus nec justo suscipit auctor. Fusce mollis sapien eget quam sodales, id pharetra magna suscipit. Nulla facilisi. Integer nec nulla mi. Nam placerat nisi venenatis, consequat mauris et, ornare libero. Suspendisse potenti. Morbi turpis elit, aliquet consequat odio nec, scelerisque."
+            "Id": 3,
+            "Passion": "Dummy",
+            "Desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus lectus nec justo suscipit auctor. Fusce mollis sapien eget quam sodales, id pharetra magna suscipit. Nulla facilisi. Integer nec nulla mi. Nam placerat nisi venenatis, consequat mauris et, ornare libero. Suspendisse potenti. Morbi turpis elit, aliquet consequat odio nec, scelerisque.",
+            "Img": "https://via.placeholder.com/40"
         }
         
     ]

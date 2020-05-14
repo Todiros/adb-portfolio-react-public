@@ -5,7 +5,7 @@ const SkillList = props => {
     return (
         <ul id={props.listId}>
             {props.children.map((item) => 
-                <li className={props.listItemClass} key={item.id}>{item.Text}</li>
+                <li className={props.listItemClass} key={item.Id}>{item.Text}</li>
             )}
         </ul>
     )

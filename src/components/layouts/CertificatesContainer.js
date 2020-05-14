@@ -7,7 +7,7 @@ const CertificatesContainer = props => {
     return (
         <ul id="certificates-wrapper">
             {props.certificates.map((cert) => 
-                <li key={cert.id} className="certificate-item">
+                <li key={cert.Id} className="certificate-item">
                     <Certificate certificate={cert}/>
                 </li>
             )}
