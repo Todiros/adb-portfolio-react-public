@@ -40,6 +40,12 @@
 
         .logo-mobile
             display: none
+        
+        .logo-full
+            display: grid
+            width: 75vh
+            margin: 1em !important
+            transform: translateX(-75px)
 
     // WIDE DESKTOPS
     @media screen and (min-width: $widescreen)
@@ -54,6 +60,13 @@
             background: $colorBlackBg
 
         .logo-mobile
+            display: grid
+            position: absolute
+            margin: 1em 0 !important
+            width: 35vh
+            left: 60px
+
+        .logo-full
             display: none
 
     // LANDSCAPE (MOBILE, TABLET, DESKTOP)
