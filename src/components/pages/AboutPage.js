@@ -8,6 +8,7 @@ import EducationContainer from '../layouts/EducationContainer'
 import CV from '../../res/data/cv'
 
 const certificates = CV.Certificates
+const education = CV.Education
 const skills = CV.Abilities.Skills
 
 const AboutPage = () => {
@@ -42,7 +43,7 @@ const AboutPage = () => {
                 </AboutSection>
                 
                 <AboutSection sectionId='cv-education' sectionTitle='Education'>
-                    <EducationContainer />
+                    <EducationContainer education={education}/>
                 </AboutSection>
                 
                 <AboutSection sectionId='cv-passions' sectionTitle='Passions'>

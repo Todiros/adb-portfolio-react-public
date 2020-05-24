@@ -32,27 +32,19 @@
     "Certificates": [
         {
             "Id": 0,
-            "Title": "Nanodegree",
+            "Title": "Front-End Web Developer",
             "Institution": "Udacity",
-            "Date": "05.2019",
+            "Date": "03.2018",
             "Img": "https://via.placeholder.com/70",
-            "Link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            "Link": "https://graduation.udacity.com/confirm/CL23JDHC"
         },
         {
             "Id": 1,
-            "Title": "MS DB",
+            "Title": "Databases Basics (MSSQL 2016)",
             "Institution": "Software University",
-            "Date": "03.2017",
+            "Date": "11.2016",
             "Img": "https://via.placeholder.com/70",
-            "Link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-        },
-        {
-            "Id": 2,
-            "Title": "Node.JS Course",
-            "Institution": "Udemy",
-            "Date": "08.2020",
-            "Img": "https://via.placeholder.com/70",
-            "Link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            "Link": "https://softuni.bg/certificates/details/14606/d53fdd8e"
         }
     ],
     "Education": [
@@ -60,7 +52,21 @@
             "Id": 0,
             "Institution": "Udacity",
             "Title": "Front-End Web Developer",
-            "Date": "05.2019",
+            "Date": "03.2018",
+            "Img": "https://via.placeholder.com/70"
+        },
+        {
+            "Id": 1,
+            "Institution": "Software University",
+            "Title": "Databases Basics (MSSQL 2016)",
+            "Date": "09.2016",
+            "Img": "https://via.placeholder.com/70"
+        },
+        {
+            "Id": 2,
+            "Institution": "Professional High School of Telecommunication",
+            "Title": "Software Developer",
+            "Date": "05.2014",
             "Img": "https://via.placeholder.com/70"
         }
     ],

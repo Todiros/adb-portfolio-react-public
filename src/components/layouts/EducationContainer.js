@@ -3,14 +3,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Education from './Education'
 
-const eduArr = () => [0, 1, 2]
-
 const EducationContainer = props => {
     return (
         <ul id="education-wrapper">
-            {eduArr().map((id) => 
-                <li key={id} className="education-item">
-                    <Education />
+            {props.education.map((edu) => 
+                <li key={edu.Id} className="education-item">
+                    <Education education={edu}/>
                 </li>
             )}
         </ul>
@@ -18,7 +16,7 @@ const EducationContainer = props => {
 }
 
 EducationContainer.propTypes = {
-
+    education: PropTypes.array.isRequired
 }
 
 export default EducationContainer
