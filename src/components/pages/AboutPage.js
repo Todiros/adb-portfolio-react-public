@@ -4,12 +4,14 @@ import AboutSection from '../layouts/AboutSection'
 import SkillList from '../layouts/SkillList'
 import CertificatesContainer from '../layouts/CertificatesContainer'
 import EducationContainer from '../layouts/EducationContainer'
+import PassionsContainer from '../layouts/PassionsContainer'
 
 import CV from '../../res/data/cv'
 
 const certificates = CV.Certificates
 const education = CV.Education
 const skills = CV.Abilities.Skills
+const passions = CV.Passions
 
 const AboutPage = () => {
     return (
@@ -47,7 +49,7 @@ const AboutPage = () => {
                 </AboutSection>
                 
                 <AboutSection sectionId='cv-passions' sectionTitle='Passions'>
-                    {CV.Passions[3].Desc}
+                    <PassionsContainer passions={passions} />
                 </AboutSection>
                 
                 <AboutSection sectionId='cv-projects' sectionTitle='Projects'>
