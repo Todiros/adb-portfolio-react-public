@@ -4,10 +4,10 @@ import Passion from './Passion'
 
 const PassionsContainer = props => {
     return (
-        <ul>
+        <ul id='passions-container'>
            {props.passions.map((passion) =>
-               <li>
-                   <Passion key={passion.Id} passion={passion} />
+               <li className='passion-item' key={passion.Id}>
+                   <Passion passion={passion} />
                </li>
            )}
         </ul>
