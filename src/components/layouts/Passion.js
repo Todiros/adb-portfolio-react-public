@@ -19,7 +19,7 @@ class Passion extends Component {
                     <img src={passion.Img} alt="" className="passion-icon"/>
                     <h3 className="passion-name">{passion.Name}</h3>
                     <button className="passion-desc-button" title='See Passion Description' onClick={this.handleClick}>
-                        <img src="#" alt="" className="passion-desc-icon"/>
+                        <img src="https://img.icons8.com/metro/52/000000/expand-arrow.png" alt="" className="passion-desc-icon"/>
                     </button>
                 </section>
                 
