@@ -84,15 +84,18 @@
                     margin: 0.5em
                     list-style: none
         
-        #cv-passions > #passions-container
-            display: flex
-            flex-wrap: wrap
-            margin: 0
-            padding: 0
+        #cv-passions
+            padding: 0 1em
 
-            .passion-item
-                list-style: none
-                width: 100%
+            #passions-container
+                display: flex
+                flex-wrap: wrap
+                margin: 0
+                padding: 0
+
+                .passion-item
+                    list-style: none
+                    width: 100%
 
         #cv-projects
             padding-bottom: 0.5em
@@ -112,6 +115,9 @@
         @media screen and (min-width: $tablet) and (max-width: $desktop - 1) and (min-height: $tablet)
             @include cert-edu-inline-styling
 
+            #cv-passions > #passions-container
+                max-width: 70%
+                margin: 0 auto
 
         // DESKTOP LAYOUT 
         @media screen and (min-width: $desktop)
@@ -140,6 +146,10 @@
             #cv-passions
                 grid-row: 3
                 grid-column: 1 / span 3
+
+                #passions-container
+                    max-width: 70%
+                    margin: 0 auto
 
             #cv-projects
                 grid-row: 3
