@@ -10,7 +10,7 @@ import PageName from './layouts/PageName'
 const Layout = () => {
     return (
         <div id="layout">
-            <BrowserRouter basename={'/dev'}>
+            <BrowserRouter basename={'/'}>
                 <Header />
                 <PageName position={'page'}/>
                 <ContentWrapper/>
