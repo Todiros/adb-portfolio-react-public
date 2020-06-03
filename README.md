@@ -9,7 +9,7 @@ Ultra responsive browser friendly personal website built with [Create React App]
 
 ### Access
 
-Somewhat stable development version is available at www.adbstudios.cc/dev. It's usually few commits behind the version here.
+Somewhat stable production version is available [HERE](https://objective-bohr-6680cd.netlify.app) and soon at www.adbstudios.cc/. It's usually few commits behind the version here.
 
 ### Tech
 
