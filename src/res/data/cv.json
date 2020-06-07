@@ -26,8 +26,127 @@
                "Id": 4,
                "Text": "Git",
                "Type": "Dev Tools"
-           }
-        ]
+           },
+           {
+               "Id": 5,
+               "Text": "NPM",
+               "Type": "Dev Tools"
+           },
+           {
+                "Id": 6,
+                "Text": "Linux / Bash",
+                "Type": "Dev Tools"
+           },
+           {
+                "Id": 7,
+                "Text": "Express",
+                "Type": "Back-End"
+           },
+           {
+                "Id": 8,
+                "Text": "jQuery",
+                "Type": "Front-End"
+           },
+           {
+                "Id": 9,
+                "Text": "Webpack 4",
+                "Type": "Dev Tools"
+           },
+           {
+                "Id": 10,
+                "Text": "AJAX",
+                "Type": "Back-End"
+            },
+            {
+                "Id": 11,
+                "Text": "Fetch API",
+                "Type": "Back-End"
+            },
+            {
+                "Id": 12,
+                "Text": "SQL",
+                "Type": "Back-End"
+            },
+            {
+                "Id": 13,
+                "Text": "REST",
+                "Type": "Back-End"
+            },
+            {
+                "Id": 14,
+                "Text": "OOP",
+                "Type": "Misc"
+            },
+            {
+                "Id": 15,
+                "Text": "SOLID",
+                "Type": "Misc"
+            },
+            {
+                "Id": 16,
+                "Text": "CRUD",
+                "Type": "Misc"
+            },
+            {
+                "Id": 17,
+                "Text": "Adobe CC",
+                "Type": "Misc"
+            },
+            {
+                "Id": 18,
+                "Text": "Google Search Engine Profeciency",
+                "Type": "Misc"
+            },
+            {
+                "Id": 19,
+                "Text": "React 16+",
+                "Type": "Front-End"
+            }
+        ],
+        "Traits": [
+            {
+                "Id": 0,
+                "Text": "Methodical"
+            },
+            {
+                "Id": 1,
+                "Text": "Persistent"
+            },
+            {
+                "Id": 2,
+                "Text": "Self-Reliant"
+            },
+            {
+                "Id": 3,
+                "Text": "Intuitive"
+            }
+         ],
+         "Talents": [
+            {
+                "Id": 0,
+                "Text": "Plan"
+            },
+            {
+                "Id": 1,
+                "Text": "Organize"
+            },
+            {
+                "Id": 2,
+                "Text": "Analyze"
+            },
+            {
+                "Id": 3,
+                "Text": "Research"
+            },
+            {
+                "Id": 4,
+                "Text": "Learn"
+            },
+            {
+                "Id": 5,
+                "Text": "Teach"
+            }
+         ]
     },
     "Certificates": [
         {

@@ -11,6 +11,8 @@ import CV from '../../res/data/cv'
 const certificates = CV.Certificates
 const education = CV.Education
 const skills = CV.Abilities.Skills
+const traits = CV.Abilities.Traits
+const talents = CV.Abilities.Talents
 const passions = CV.Passions
 
 const AboutPage = () => {
@@ -22,21 +24,21 @@ const AboutPage = () => {
                 </p>
             </section>
             <div id='cv-wrapper'>
+                <AboutSection sectionId='cv-traits' sectionTitle='Traits'>
+                    <SkillList listId='skill-wrapper' listItemClass='skill-item'>
+                        {traits}
+                    </SkillList>    
+                </AboutSection>
+                
                 <AboutSection sectionId='cv-skills' sectionTitle='Skills'>    
                     <SkillList listId='skill-wrapper' listItemClass='skill-item'>
                         {skills}
                     </SkillList>
                 </AboutSection>
-
-                <AboutSection sectionId='cv-traits' sectionTitle='Traits'>
-                    <SkillList listId='skill-wrapper' listItemClass='skill-item'>
-                        {skills}
-                    </SkillList>    
-                </AboutSection>
                 
                 <AboutSection sectionId='cv-talents' sectionTitle='Talents'>    
                     <SkillList listId='skill-wrapper' listItemClass='skill-item'>
-                        {skills}
+                        {talents}
                     </SkillList>
                 </AboutSection>
 
