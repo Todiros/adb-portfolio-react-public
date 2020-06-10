@@ -10,9 +10,9 @@ const Education = props => {
                 <img src={education.Img} alt="institution logo"/>
             </div>
             <ul className="education-details">
-                <li className="institution-name">{education.Institution}</li>
-                <li className="title">{education.Title}</li>
-                <li className="date">{education.Date}</li>
+                <li className="institution-name" title='name of the institution'><h4>{education.Institution}</h4></li>
+                <li className="title" title='name of study'>{education.Title}</li>
+                <li className="date" title='date of graduation'>{education.Date}</li>
             </ul>
         </article>
     )
