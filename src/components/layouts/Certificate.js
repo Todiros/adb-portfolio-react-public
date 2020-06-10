@@ -9,9 +9,9 @@ const Certificate = props => {
                 <img src={certificate.Img} alt="institution logo"/>
             </div>
             <ul id="certificate-details">
-                <li id="title">{certificate.Title}</li>
-                <li id="institution-name">{certificate.Institution}</li>
-                <li id="date">{certificate.Date}</li>
+                <li id="title" title='name of the certificate'><h4>{certificate.Title}</h4></li>
+                <li id="institution-name" title='name of the institution'>{certificate.Institution}</li>
+                <li id="date" title='date of completion'>{certificate.Date}</li>
             </ul>
             <a href={certificate.Link} 
                 target="_blank" 
