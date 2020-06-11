@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
+import ButtonImage from '../layouts/ButtonImage'
+
 class Passion extends Component {
     state = {
         passionDescriptionOn: false
@@ -18,9 +20,7 @@ class Passion extends Component {
                 <section className="passion-header">
                     <img src={passion.Img} alt="" className="passion-icon"/>
                     <h3 className="passion-name">{passion.Name}</h3>
-                    <button className="passion-desc-button" title='See Passion Description' onClick={this.handleClick}>
-                        <img src="https://img.icons8.com/metro/52/000000/expand-arrow.png" alt="" className="passion-desc-icon"/>
-                    </button>
+                    <ButtonImage handleClick={this.handleClick}/>
                 </section>
                 
                 {!this.state.passionDescriptionOn ? null :
