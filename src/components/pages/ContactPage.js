@@ -24,9 +24,9 @@ const ContactPage = () => {
         <section id='contact-details-wrapper'>
             <h4>Contact Details</h4>
             <ul id="contact-details">
-              <li id="contact-name">Anthony D. Borr</li>
+              <li id="contact-name">Tony D. Borisov</li>
               <li id="contact-location">Sofia, Bulgaria</li>
-              <li id="contact-email">myemail@email.com (dummy)</li>
+              <li id="contact-email">myemail@email.com</li>
             </ul>
         </section>
       </div>
