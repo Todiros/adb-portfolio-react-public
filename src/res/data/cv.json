@@ -154,7 +154,7 @@
             "Title": "Front-End Web Developer",
             "Institution": "Udacity",
             "Date": "03.2018",
-            "Img": "https://via.placeholder.com/70",
+            "Img": "",
             "Link": "https://graduation.udacity.com/confirm/CL23JDHC"
         },
         {
@@ -162,7 +162,7 @@
             "Title": "Databases Basics (MSSQL 2016)",
             "Institution": "Software University",
             "Date": "11.2016",
-            "Img": "https://via.placeholder.com/70",
+            "Img": "",
             "Link": "https://softuni.bg/certificates/details/14606/d53fdd8e"
         }
     ],
@@ -172,21 +172,21 @@
             "Institution": "Udacity",
             "Title": "Front-End Web Developer",
             "Date": "03.2018",
-            "Img": "https://via.placeholder.com/70"
+            "Img": ""
         },
         {
             "Id": 1,
             "Institution": "Software University",
             "Title": "Databases Basics (MSSQL 2016)",
             "Date": "09.2016",
-            "Img": "https://via.placeholder.com/70"
+            "Img": ""
         },
         {
             "Id": 2,
             "Institution": "Professional High School of Telecommunication",
             "Title": "Software Developer",
             "Date": "05.2014",
-            "Img": "https://via.placeholder.com/70"
+            "Img": ""
         }
     ],
     "Passions": [
