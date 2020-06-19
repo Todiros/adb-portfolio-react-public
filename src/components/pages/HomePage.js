@@ -12,7 +12,7 @@ const HomePage = () => {
         </h2>
         <p id='short-intro'>It's Tony here, the creator of ADB<span className="accent">Studios</span></p>
         <p id="role">
-          and {'<'}<span className="code">Full Stack Developer</span>{'/>'}
+          and <span className="code">{'<'}</span>Full-Stack Developer<span className="code">{'/>'}</span>
         </p>
         <Link to={`/work`} id='home-page-work-button' className='page-link'>Work</Link>
       </section>
