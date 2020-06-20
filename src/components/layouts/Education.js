@@ -6,9 +6,14 @@ const Education = props => {
     const { education } = props
     return (
         <article className="education-wrapper">
-            <div className="image-wrapper">
-                <img src={education.Img} alt="institution logo"/>
-            </div>
+            {/* If there isn't an image link present, it renders a bullet point */}
+            {!education.Img ? 
+                <span className='bullet-point'>{'\u2022'}</span> :
+                <div className="image-wrapper">
+                    <img src={education.Img} alt="institution logo"/>
+                </div>
+            }
+            
             <ul className="education-details">
                 <li className="institution-name" title='name of the institution'><h4>{education.Institution}</h4></li>
                 <li className="title" title='name of study'>{education.Title}</li>

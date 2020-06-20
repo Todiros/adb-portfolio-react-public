@@ -5,9 +5,14 @@ const Certificate = props => {
     const { certificate } = props
     return (
         <article id="certificate-wrapper">
-            <div id="image-wrapper">
-                <img src={certificate.Img} alt="institution logo"/>
-            </div>
+            {/* If there isn't an image link present, it renders a bullet point */}
+            {!certificate.Img ? 
+                <span className='bullet-point'>{'\u2022'}</span> :
+                <div id="image-wrapper">
+                    <img src={certificate.Img} alt="institution logo"/>
+                </div>
+            }
+            
             <ul id="certificate-details">
                 <li id="title" title='name of the certificate'><h4>{certificate.Title}</h4></li>
                 <li id="institution-name" title='name of the institution'>{certificate.Institution}</li>
