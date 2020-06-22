@@ -151,41 +151,41 @@
     "Certificates": [
         {
             "Id": 0,
-            "Title": "Front-End Web Developer",
-            "Institution": "Udacity",
-            "Date": "03.2018",
-            "Img": "",
-            "Link": "https://graduation.udacity.com/confirm/CL23JDHC"
-        },
-        {
-            "Id": 1,
             "Title": "Databases Basics (MSSQL 2016)",
             "Institution": "Software University",
             "Date": "11.2016",
             "Img": "",
             "Link": "https://softuni.bg/certificates/details/14606/d53fdd8e"
+        },
+        {
+            "Id": 1,
+            "Title": "Front-End Web Developer",
+            "Institution": "Udacity",
+            "Date": "03.2018",
+            "Img": "",
+            "Link": "https://graduation.udacity.com/confirm/CL23JDHC"
         }
     ],
     "Education": [
         {
             "Id": 0,
+            "Institution": "Professional High School of Telecommunication",
+            "Title": "Software Developer",
+            "Date": "05.2014",
+            "Img": ""
+        },
+        {
+            "Id": 1,
             "Institution": "Udacity",
             "Title": "Front-End Web Developer",
             "Date": "03.2018",
             "Img": ""
         },
         {
-            "Id": 1,
+            "Id": 2,
             "Institution": "Software University",
             "Title": "Databases Basics (MSSQL 2016)",
             "Date": "09.2016",
-            "Img": ""
-        },
-        {
-            "Id": 2,
-            "Institution": "Professional High School of Telecommunication",
-            "Title": "Software Developer",
-            "Date": "05.2014",
             "Img": ""
         }
     ],
