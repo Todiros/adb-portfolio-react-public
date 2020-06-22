@@ -5,7 +5,7 @@
 // -- (0)  : = (the default value)
 // -- (1)  : >
 // -- (-1) : <
-const objectSortByDate = (a, b, prop, sign = 0) => {
+export const objectSortByDate = (a, b, prop, sign = 0) => {
     if (!a.Date || !b.Date)
         return null
 
@@ -30,4 +30,14 @@ const objectSortByDate = (a, b, prop, sign = 0) => {
     }
 }
 
-export default objectSortByDate
+export const getSortedObject = (objArr) => {
+    // sorts object entries in array by year and then by month in descending order
+    const sortedObject = objArr.sort(
+        (a, b) => objectSortByDate(a, b, 'year', -1) ? 1 : 
+            (objectSortByDate(a, b, 'year') ? 
+                (objectSortByDate(a, b, 'month', -1) ? 1 : -1) 
+            : -1)
+    )
+
+    return sortedObject
+}
