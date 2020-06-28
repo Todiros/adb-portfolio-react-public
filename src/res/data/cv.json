@@ -193,24 +193,48 @@
         {
             "Id": 0,
             "Name": "Weightlifting",
-            "Desc": "Nullam dui velit, tempor at neque quis, hendrerit congue urna. Sed ac vulputate ante. Etiam sit amet enim sed leo ultricies sodales.",
+            "Desc": "To perform at my best I have to stay in shape. Simple as that. Can't function properly unless I get a therapy session regularly. Most of my bussines and application ideas came while in the gym. The rest - in the shower.",
             "Img": "https://via.placeholder.com/50"
         },
         {
             "Id": 1,
             "Name": "Rockclimbing",
-            "Desc": "Nullam dui velit, tempor at neque quis, hendrerit congue urna. Sed ac vulputate ante. Etiam sit amet enim sed leo ultricies sodales.",
+            "Desc": "As someone who fears heights, rockclimbing has recently became a chanllenging but rewarding hobby. Quite addictive, as well.",
             "Img": "https://via.placeholder.com/50"
         },
         {
             "Id": 2,
             "Name": "Music",
-            "Desc": "Nullam dui velit, tempor at neque quis, hendrerit congue urna. Sed ac vulputate ante. Etiam sit amet enim sed leo ultricies sodales.",
+            "Desc": "Life without music would be a mistake - as Nietzsche said. I agree as a wholehearted consumer and occasional creator.",
             "Img": "https://via.placeholder.com/50"
         },
         {
             "Id": 3,
-            "Name": "Dummy",
+            "Name": "Software Development",
+            "Desc": "I consider myself above anything, a creator. What best field to explore than software development where you have the power create almost anything. Be a god. As it's extremely wide field - it can be hard to focus. My main focus is currently web development, mobile, machine learning and artificial intelligence.",
+            "Img": "https://via.placeholder.com/50"
+        },
+        {
+            "Id": 4,
+            "Name": "Reading / Writing",
+            "Desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus lectus nec justo suscipit auctor. Fusce mollis sapien eget quam sodales, id pharetra magna suscipit. Nulla facilisi. Integer nec nulla mi. Nam placerat nisi venenatis, consequat mauris et, ornare libero. Suspendisse potenti. Morbi turpis elit, aliquet consequat odio nec, scelerisque.",
+            "Img": "https://via.placeholder.com/50"
+        },
+        {
+            "Id": 5,
+            "Name": "Psychology / Philosophy",
+            "Desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus lectus nec justo suscipit auctor. Fusce mollis sapien eget quam sodales, id pharetra magna suscipit. Nulla facilisi. Integer nec nulla mi. Nam placerat nisi venenatis, consequat mauris et, ornare libero. Suspendisse potenti. Morbi turpis elit, aliquet consequat odio nec, scelerisque.",
+            "Img": "https://via.placeholder.com/50"
+        },
+        {
+            "Id": 6,
+            "Name": "Personal Development",
+            "Desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus lectus nec justo suscipit auctor. Fusce mollis sapien eget quam sodales, id pharetra magna suscipit. Nulla facilisi. Integer nec nulla mi. Nam placerat nisi venenatis, consequat mauris et, ornare libero. Suspendisse potenti. Morbi turpis elit, aliquet consequat odio nec, scelerisque.",
+            "Img": "https://via.placeholder.com/50"
+        },
+        {
+            "Id": 7,
+            "Name": "Neuroscience",
             "Desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus lectus nec justo suscipit auctor. Fusce mollis sapien eget quam sodales, id pharetra magna suscipit. Nulla facilisi. Integer nec nulla mi. Nam placerat nisi venenatis, consequat mauris et, ornare libero. Suspendisse potenti. Morbi turpis elit, aliquet consequat odio nec, scelerisque.",
             "Img": "https://via.placeholder.com/50"
         }
