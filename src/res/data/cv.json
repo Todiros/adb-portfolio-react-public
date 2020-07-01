@@ -193,13 +193,13 @@
         {
             "Id": 0,
             "Name": "Weightlifting",
-            "Desc": "To perform at my best I have to stay in shape. Simple as that. Can't function properly unless I get a therapy session regularly. Most of my bussines and application ideas came while in the gym. The rest - in the shower.",
+            "Desc": "To perform at my best I have to stay in shape. Simple as that. Can't function properly unless I get a therapy session regularly. Most of my business and application ideas came while in the gym. The rest - in the shower.",
             "Img": "https://via.placeholder.com/50"
         },
         {
             "Id": 1,
             "Name": "Rockclimbing",
-            "Desc": "As someone who fears heights, rockclimbing has recently became a chanllenging but rewarding hobby. Quite addictive, as well.",
+            "Desc": "As someone who fears heights, rock climbing has recently become a challenging but rewarding hobby. Quite addictive, as well.",
             "Img": "https://via.placeholder.com/50"
         },
         {
@@ -211,31 +211,31 @@
         {
             "Id": 3,
             "Name": "Software Development",
-            "Desc": "I consider myself above anything, a creator. What best field to explore than software development where you have the power create almost anything. Be a god. As it's extremely wide field - it can be hard to focus. My main focus is currently web development, mobile, machine learning and artificial intelligence.",
+            "Desc": "",
             "Img": "https://via.placeholder.com/50"
         },
         {
             "Id": 4,
             "Name": "Reading / Writing",
-            "Desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus lectus nec justo suscipit auctor. Fusce mollis sapien eget quam sodales, id pharetra magna suscipit. Nulla facilisi. Integer nec nulla mi. Nam placerat nisi venenatis, consequat mauris et, ornare libero. Suspendisse potenti. Morbi turpis elit, aliquet consequat odio nec, scelerisque.",
+            "Desc": "As someone who takes pleasure in creating - writing is a natural inclination even if it has not always been the case. Reading keeps me growing and sane.",
             "Img": "https://via.placeholder.com/50"
         },
         {
             "Id": 5,
             "Name": "Psychology / Philosophy",
-            "Desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus lectus nec justo suscipit auctor. Fusce mollis sapien eget quam sodales, id pharetra magna suscipit. Nulla facilisi. Integer nec nulla mi. Nam placerat nisi venenatis, consequat mauris et, ornare libero. Suspendisse potenti. Morbi turpis elit, aliquet consequat odio nec, scelerisque.",
+            "Desc": "I believe psychology should be mandatory education found in every school curriculum just as science and software development. It helps understand yourself and maybe even people in general. Philosophy, on the other hand, helps understand life.",
             "Img": "https://via.placeholder.com/50"
         },
         {
             "Id": 6,
             "Name": "Personal Development",
-            "Desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus lectus nec justo suscipit auctor. Fusce mollis sapien eget quam sodales, id pharetra magna suscipit. Nulla facilisi. Integer nec nulla mi. Nam placerat nisi venenatis, consequat mauris et, ornare libero. Suspendisse potenti. Morbi turpis elit, aliquet consequat odio nec, scelerisque.",
+            "Desc": "",
             "Img": "https://via.placeholder.com/50"
         },
         {
             "Id": 7,
             "Name": "Neuroscience",
-            "Desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus lectus nec justo suscipit auctor. Fusce mollis sapien eget quam sodales, id pharetra magna suscipit. Nulla facilisi. Integer nec nulla mi. Nam placerat nisi venenatis, consequat mauris et, ornare libero. Suspendisse potenti. Morbi turpis elit, aliquet consequat odio nec, scelerisque.",
+            "Desc": "I have not achieved the level of proficiency I would like to have in this field. However, I still find the hardware of our brains just as fascinating as it's software. Especially, its applicability to computer science.",
             "Img": "https://via.placeholder.com/50"
         }
         
