@@ -43,22 +43,21 @@ const AboutPage = () => {
                     </SkillList>
                 </AboutSection>
 
+                <AboutSection sectionId='cv-education' sectionTitle='Education'>
+                    <EducationContainer education={education}/>
+                </AboutSection>
+                
                 <AboutSection sectionId='cv-certificates' sectionTitle='Certificates'>
                     <CertificatesContainer certificates={certificates}/>
                 </AboutSection>
                 
-                <AboutSection sectionId='cv-education' sectionTitle='Education'>
-                    <EducationContainer education={education}/>
+                <AboutSection sectionId='cv-projects' sectionTitle=''>
+                    <Link to={`/work`} id='about-page-work-button' className='page-link'>go to projects</Link>
                 </AboutSection>
                 
                 <AboutSection sectionId='cv-passions' sectionTitle='Passions'>
                     <PassionsContainer passions={passions} />
                 </AboutSection>
-                
-                <AboutSection sectionId='cv-projects' sectionTitle='Projects'>
-                    <Link to={`/work`} id='about-page-work-button' className='page-link'>go to projects</Link>
-                </AboutSection>
-
                 
                 <div id='button-wrapper'>
                     <button id='download-cv-button' className='custom-button'>Download CV</button>
