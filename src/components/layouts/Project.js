@@ -14,19 +14,21 @@ class Project extends Component {
     }
 
     render() {
+        const { project } = this.props
+
         return (
-            <article id={this.props.name} className='work-project'>
-                <h4 className="project-title">{this.props.name}</h4>
-                <img src={this.props.image} alt="project" className='project-thumbnail'/>
+            <article id={project.Name} className='work-project'>
+                <h4 className="project-title">{project.Name + ' ' + project.Id}</h4>
+                <img src={project.Img} alt="project" className='project-thumbnail'/>
                 <ul className="project-links">
-                    <li className="project-live"><a href={this.props.live} target='_blank' rel='noopener noreferrer'>live</a></li>
-                    <li className="project-code"><a href={this.props.code} target='_blank' rel='noopener noreferrer'>code</a></li>
+                    <li className="project-live"><a href={project.DemoLink} target='_blank' rel='noopener noreferrer'>live</a></li>
+                    <li className="project-code"><a href={project.CodeLink} target='_blank' rel='noopener noreferrer'>code</a></li>
                 </ul>
-                <p className="project-description">{this.props.description}</p>
+                <p className="project-description">{project.Description}</p>
                 <button className='click-for-more custom-button' onClick={this.handleClick}>{this.state.moreDetails ? 'less' : 'more'} details</button>
                 
                 {this.state.moreDetails ? 
-                    <MoreDetails details={this.props}/>
+                    <MoreDetails details={project.Details}/>
                     : null
                 }
             </article>
@@ -35,25 +37,20 @@ class Project extends Component {
 }
 
 Project.propTypes = {
-    name: PropTypes.string.isRequired,
-    image: PropTypes.string,
-    description: PropTypes.string,
-    live: PropTypes.string,
-    code: PropTypes.string.isRequired,
-    status: PropTypes.string.isRequired,
-    type: PropTypes.string.isRequired,
-    challenges: PropTypes.array
+    project: PropTypes.object.isRequired
 }
 
 Project.defaultProps = {
-    name: "Project Default",
-    image: "https://www.topsoft.am/media/1010/how-to-create-a-website-feature-image.jpg",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt dolorum non commodi consequatur quia libero sunt eius consequuntur illo, odit veniam. Eum ab saepe ullam ipsa dolore doloremque eaque libero.",
-    live: "#",
-    code: "#",
-    status: "WIP",
-    type: "Coursework",
-    challenges: ["Lorem ipsum dolor sit amet consectetur adipisicing elit", "Rem distinctio sequi incidunt quaerat tempore porro ex dignissimos similique natus excepturi necessitatibus optio fuga", "Aliquam nulla provident maxime dolore"]
+    project: {
+        name: "Project Default",
+        image: "https://www.topsoft.am/media/1010/how-to-create-a-website-feature-image.jpg",
+        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt dolorum non commodi consequatur quia libero sunt eius consequuntur illo, odit veniam. Eum ab saepe ullam ipsa dolore doloremque eaque libero.",
+        live: "#",
+        code: "#",
+        status: "WIP",
+        type: "Coursework",
+        challenges: ["Lorem ipsum dolor sit amet consectetur adipisicing elit", "Rem distinctio sequi incidunt quaerat tempore porro ex dignissimos similique natus excepturi necessitatibus optio fuga", "Aliquam nulla provident maxime dolore"]
+    } 
 }
 
 export default Project
