@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 // The details section of the project component (Project.js)
 const MoreDetails = props => {
-    const {status, type, challenges} = props.details
+    const {Status, Type, WIL} = props.details
 
     return (
         <div className="more-details-wrapper">
@@ -11,16 +11,16 @@ const MoreDetails = props => {
                 <ul className="status-type">
                     <li className="status">
                         <span className="status-heading">status: </span>
-                        { status }
+                        { Status }
                     </li>
                     <li className="type">
                         <span className="type-heading">type: </span>
-                        { type }
+                        { Type }
                     </li>
                 </ul>
                 <ul className="challenges">
                     {
-                        challenges.map(challenge => 
+                        WIL.map(challenge => 
                             <li className="challenge" key={challenge}> {challenge}</li>
                         )
                     }
