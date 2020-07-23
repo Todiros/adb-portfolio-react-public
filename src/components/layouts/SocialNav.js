@@ -12,7 +12,7 @@ const SocialNav = (props) => {
         <section id='social-nav-container' className={positionClass}>
             <ul className='social-nav'>
                 <li>
-                    <a href='https://codepen.io' target='_blank' rel="noopener noreferrer">
+                    <a href='https://codepen.io/Xzahn' target='_blank' rel="noopener noreferrer">
                         <img 
                             src={_codepenIcon} 
                             id='social-nav-icon' 
@@ -22,7 +22,7 @@ const SocialNav = (props) => {
                     </a>
                 </li>
                 <li>
-                    <a href='https://www.linkedin.com' target='_blank' rel="noopener noreferrer">
+                    <a href='https://www.linkedin.com/in/tonyborisov/' target='_blank' rel="noopener noreferrer">
                         <img 
                             src={_linkedinIcon} 
                             id='social-nav-icon' 
