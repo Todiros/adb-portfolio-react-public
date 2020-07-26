@@ -1,21 +1,25 @@
 .work-project
         display: inherit
-        grid-template-rows: repeat(5, auto)
+        grid-template-rows: repeat(3, max-content) auto max-content
         justify-items: center
-        // margin: 0 0.5em 2em
 
         .project-title
             display: grid
             grid-row: 1
             margin: 1em 0
             align-self: start
+            height: min-content
 
         .project-thumbnail
             grid-row: 2
             width: 100%
             height: auto
-            padding: 0 1em
-            justify-self: start
+            margin: 0 1em
+            justify-self: center
+            border: 1px solid $colorTextG
+
+        .project-description
+            margin: auto !important
 
         ul.project-links
             grid-row: 3
