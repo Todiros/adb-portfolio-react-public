@@ -18,7 +18,7 @@ class Project extends Component {
 
         return (
             <article id={project.Name} className='work-project'>
-                <h4 className="project-title">{project.Name + ' ' + project.Id}</h4>
+                <h4 className="project-title">{project.Name}</h4>
                 <img src={project.Img} alt="project" className='project-thumbnail'/>
                 <ul className="project-links">
                     <li className="project-live"><a href={project.DemoLink} target='_blank' rel='noopener noreferrer'>live</a></li>

@@ -249,9 +249,13 @@
             "CodeLink": "https://github.com/Todiros/adb-portfolio-react-public",
             "Description": "An ultra-responsive, cross-browser supported portfolio website.",
             "Details": {
-                "Status": "WIP",
+                "Status": "Work In Progress",
                 "Type": "Personal Project",
-                "WIL": ["React", "SASS", "Continuous Deployment with Netlify"]
+                "WIL": [
+                        "Stack: React, SASS, Git, JSON, Netlify",
+                        "Features: Accessibility, Cross-Browser Support, Ultra-Responsiveness",
+                        "WIL: SoC, Continuous Delivery with Netlify, SASS Mixin, Media Queries, Grid, Flexbox"
+                    ]
             }
         },
         {
