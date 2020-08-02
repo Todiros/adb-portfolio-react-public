@@ -260,15 +260,18 @@
         },
         {
             "Id": 1,
-            "Name": "Project",    
-            "Img": "https://via.placeholder.com/430x300/61892f/58595B/?text=NO+PREVIEW",
-            "DemoLink": "#",
-            "CodeLink": "#",
-            "Description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt dolorum non commodi consequatur quia libero sunt eius consequuntur illo, odit veniam. Eum ab saepe ullam ipsa dolore doloremque eaque libero.",
+            "Name": "Pixel Art Maker",    
+            "Img": "https://i.imgur.com/7JKI5M2.png",
+            "DemoLink": "https://cdpn.io/Xzahn/debug/MOEmpp/DqADdgmapQYA",
+            "CodeLink": "https://codepen.io/Xzahn/pen/MOEmpp",
+            "Description": "A custom-made canvas for drawing with pixels - project part of the Udacity Front-End Nanodegree program.",
             "Details": {
-                "Status": "WIP",
+                "Status": "Completed",
                 "Type": "Coursework",
-                "WIL": ["Lorem ipsum dolor sit amet consectetur adipisicing elit", "Rem distinctio sequi incidunt quaerat tempore porro ex dignissimos similique natus excepturi necessitatibus optio fuga", "Aliquam nulla provident maxime dolore"]
+                "WIL": [
+                    "Stack: HTML, JS, SASS, jQuery",
+                    "WIL: Working with the DOM, Dynamically add and remove HTML elements, Use JS to dynamically alter CSS properties, JS Events"
+                ]
             }
         },
         {
