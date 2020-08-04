@@ -276,15 +276,18 @@
         },
         {
             "Id": 2,
-            "Name": "Project",    
-            "Img": "https://via.placeholder.com/430x300/61892f/58595B/?text=NO+PREVIEW",
-            "DemoLink": "#",
-            "CodeLink": "#",
-            "Description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt dolorum non commodi consequatur quia libero sunt eius consequuntur illo, odit veniam. Eum ab saepe ullam ipsa dolore doloremque eaque libero.",
+            "Name": "Smallest Common Multiple",    
+            "Img": "https://i.imgur.com/bCS7OAB.png",
+            "DemoLink": "https://todiros.github.io/scm/",
+            "CodeLink": "https://github.com/Todiros/SCM",
+            "Description": "Simple script that finds the SCM of two numbers. Challenge by freeCodeCamp that I decided to add some color to.",
             "Details": {
-                "Status": "WIP",
+                "Status": "Completed",
                 "Type": "Coursework",
-                "WIL": ["Lorem ipsum dolor sit amet consectetur adipisicing elit", "Rem distinctio sequi incidunt quaerat tempore porro ex dignissimos similique natus excepturi necessitatibus optio fuga", "Aliquam nulla provident maxime dolore"]
+                "WIL": [
+                    "Stack: HTML, JS, SASS, jQuery, Webpack 3",
+                    "WIL: Minimalist Style, Color & Font, Manual configuration for Webpack 3 from scratch, Writing JSON files, Webpack Loaders, Babel"
+                ]
             }
         },
         {
