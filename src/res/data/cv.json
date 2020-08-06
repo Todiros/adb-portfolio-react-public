@@ -292,15 +292,18 @@
         },
         {
             "Id": 3,
-            "Name": "Project",    
+            "Name": "Intermediate Algorithms",    
             "Img": "https://via.placeholder.com/430x300/61892f/58595B/?text=NO+PREVIEW",
             "DemoLink": "#",
-            "CodeLink": "#",
-            "Description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt dolorum non commodi consequatur quia libero sunt eius consequuntur illo, odit veniam. Eum ab saepe ullam ipsa dolore doloremque eaque libero.",
+            "CodeLink": "https://github.com/Todiros/freeCodeCamp",
+            "Description": "Beginner and intermediate algorithms from freeCodeCamp' JS Algorithm and DS Certification path.",
             "Details": {
                 "Status": "WIP",
                 "Type": "Coursework",
-                "WIL": ["Lorem ipsum dolor sit amet consectetur adipisicing elit", "Rem distinctio sequi incidunt quaerat tempore porro ex dignissimos similique natus excepturi necessitatibus optio fuga", "Aliquam nulla provident maxime dolore"]
+                "WIL": [
+                    "Stack: JavaScript",
+                    "WIL: Working with pure JS, String Algorithms, Regular Expressions, Functional JS, Intermediate Algorithms"
+                ]
             }
         }
     ]
