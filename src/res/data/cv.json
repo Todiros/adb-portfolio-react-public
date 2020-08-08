@@ -294,7 +294,7 @@
             "Id": 3,
             "Name": "Intermediate Algorithms",    
             "Img": "https://via.placeholder.com/430x300/61892f/58595B/?text=NO+PREVIEW",
-            "DemoLink": "#",
+            "DemoLink": "NA",
             "CodeLink": "https://github.com/Todiros/freeCodeCamp",
             "Description": "Beginner and intermediate algorithms from freeCodeCamp' JS Algorithm and DS Certification path.",
             "Details": {
@@ -310,7 +310,7 @@
             "Id": 4,
             "Name": "Python Web Scraper",    
             "Img": "https://via.placeholder.com/430x300/61892f/58595B/?text=NO+PREVIEW",
-            "DemoLink": "#",
+            "DemoLink": "NA",
             "CodeLink": "https://github.com/Todiros/WebScraper",
             "Description": "Web scraper that collects data from a single HTML page exporting the data into an excel file.",
             "Details": {

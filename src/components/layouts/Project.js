@@ -21,7 +21,10 @@ class Project extends Component {
                 <h4 className="project-title">{project.Name}</h4>
                 <img src={project.Img} alt="project" className='project-thumbnail'/>
                 <ul className="project-links">
-                    <li className="project-live"><a href={project.DemoLink} target='_blank' rel='noopener noreferrer'>live</a></li>
+                    {project.DemoLink !== 'NA' ?
+                        <li className="project-live"><a href={project.DemoLink} target='_blank' rel='noopener noreferrer'>live</a></li>
+                        : null
+                    }
                     <li className="project-code"><a href={project.CodeLink} target='_blank' rel='noopener noreferrer'>code</a></li>
                 </ul>
                 <p className="project-description">{project.Description}</p>
