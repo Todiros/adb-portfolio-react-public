@@ -287,7 +287,7 @@
                 "WIL": [
                     "Stack: HTML, JS, SASS, jQuery, Webpack 3",
                     "WIL: Minimalist Style, Color & Font, Manual configuration for Webpack 3 from scratch, Writing JSON files, Webpack Loaders, Babel"
-                ]
+                ]   
             }
         },
         {
@@ -303,6 +303,22 @@
                 "WIL": [
                     "Stack: JavaScript",
                     "WIL: Working with pure JS, String Algorithms, Regular Expressions, Functional JS, Intermediate Algorithms"
+                ]
+            }
+        },
+        {
+            "Id": 4,
+            "Name": "Python Web Scraper",    
+            "Img": "https://via.placeholder.com/430x300/61892f/58595B/?text=NO+PREVIEW",
+            "DemoLink": "#",
+            "CodeLink": "https://github.com/Todiros/WebScraper",
+            "Description": "Web scraper that collects data from a single HTML page exporting the data into an excel file.",
+            "Details": {
+                "Status": "Completed",
+                "Type": "Professional",
+                "WIL": [
+                    "Stack: Python, BeautifulSoup, Selenium, OpenPyXL",
+                    "WIL: Web scraping with Python, Authentication, Generate Excel files, Import / Export Excel data, HTML Parsing"
                 ]
             }
         }
