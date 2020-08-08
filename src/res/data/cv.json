@@ -264,6 +264,8 @@
             "Img": "https://i.imgur.com/7JKI5M2.png",
             "DemoLink": "https://cdpn.io/Xzahn/debug/MOEmpp/DqADdgmapQYA",
             "CodeLink": "https://codepen.io/Xzahn/pen/MOEmpp",
+            "OriginName": "Udacity",
+            "OriginLink": "https://www.udacity.com/",
             "Description": "A custom-made canvas for drawing with pixels - project part of the Udacity Front-End Nanodegree program.",
             "Details": {
                 "Status": "Completed",
@@ -280,6 +282,8 @@
             "Img": "https://i.imgur.com/bCS7OAB.png",
             "DemoLink": "https://todiros.github.io/scm/",
             "CodeLink": "https://github.com/Todiros/SCM",
+            "OriginName": "Udacity",
+            "OriginLink": "https://www.udacity.com/",
             "Description": "Simple script that finds the SCM of two numbers. Challenge by freeCodeCamp that I decided to add some color to.",
             "Details": {
                 "Status": "Completed",
@@ -296,6 +300,8 @@
             "Img": "https://via.placeholder.com/430x300/61892f/58595B/?text=NO+PREVIEW",
             "DemoLink": "NA",
             "CodeLink": "https://github.com/Todiros/freeCodeCamp",
+            "OriginName": "freeCodeCamp",
+            "OriginLink": "https://www.freecodecamp.org/learn",
             "Description": "Beginner and intermediate algorithms from freeCodeCamp' JS Algorithm and DS Certification path.",
             "Details": {
                 "Status": "WIP",

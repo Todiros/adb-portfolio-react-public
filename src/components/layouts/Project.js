@@ -26,6 +26,10 @@ class Project extends Component {
                         : null
                     }
                     <li className="project-code"><a href={project.CodeLink} target='_blank' rel='noopener noreferrer'>code</a></li>
+                    {!project.OriginName ?
+                        null 
+                        : <li className="project-origin"><a href={project.OriginLink} target='_blank' rel='noopener noreferrer'>{project.OriginName}</a></li>
+                    }
                 </ul>
                 <p className="project-description">{project.Description}</p>
                 <button className='click-for-more custom-button' onClick={this.handleClick}>{this.state.moreDetails ? 'less' : 'more'} details</button>
