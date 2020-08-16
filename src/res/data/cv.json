@@ -313,7 +313,7 @@
             }
         },
         {
-            "Id": 5,
+            "Id": 6,
             "Name": "Python Web Scraper",    
             "Img": "https://via.placeholder.com/430x300/61892f/58595B/?text=NO+PREVIEW",
             "DemoLink": "NA",
@@ -343,6 +343,24 @@
                 "WIL": [
                     "Stack: JavaScript, jQuery",
                     "WIL: Working with existing codebase, Writing READMEs, Functional JS"
+                ]
+            }
+        },
+        {
+            "Id": 5,
+            "Name": "The Frogger - Arcade Game",    
+            "Img": "https://i.imgur.com/fmgDY2j.png",
+            "DemoLink": "https://todiros.github.io/frogger/",
+            "CodeLink": "https://github.com/Todiros/arcade-game",
+            "OriginName": "Udacity",
+            "OriginLink": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011",
+            "Description": "Frogger-like arcade game. Project part of the Udacity Front-End Nanodegree program.",
+            "Details": {
+                "Status": "Completed",
+                "Type": "Coursework",
+                "WIL": [
+                    "Stack: JavaScript, CSS",
+                    "WIL: Basic game development, Working with an existing game engine and resources, Object-Oriented JS, Working with coordinates, Keyboard controls, Writing READMEs"
                 ]
             }
         }
