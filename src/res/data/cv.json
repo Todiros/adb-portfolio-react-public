@@ -265,7 +265,7 @@
             "DemoLink": "https://cdpn.io/Xzahn/debug/MOEmpp/DqADdgmapQYA",
             "CodeLink": "https://codepen.io/Xzahn/pen/MOEmpp",
             "OriginName": "Udacity",
-            "OriginLink": "https://www.udacity.com/",
+            "OriginLink": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011",
             "Description": "A custom-made canvas for drawing with pixels - project part of the Udacity Front-End Nanodegree program.",
             "Details": {
                 "Status": "Completed",
@@ -282,8 +282,8 @@
             "Img": "https://i.imgur.com/bCS7OAB.png",
             "DemoLink": "https://todiros.github.io/scm/",
             "CodeLink": "https://github.com/Todiros/SCM",
-            "OriginName": "Udacity",
-            "OriginLink": "https://www.udacity.com/",
+            "OriginName": "freeCodeCamp",
+            "OriginLink": "https://www.freecodecamp.org/learn",
             "Description": "Simple script that finds the SCM of two numbers. Challenge by freeCodeCamp that I decided to add some color to.",
             "Details": {
                 "Status": "Completed",
@@ -330,13 +330,13 @@
         },
         {
             "Id": 4,
-            "Name": "Memory Game",    
+            "Name": "Matching Game",    
             "Img": "https://i.imgur.com/e6FHA5t.png",
             "DemoLink": "https://todiros.github.io/memory/",
             "CodeLink": "https://github.com/Todiros/MemoryGame",
             "OriginName": "Udacity",
-            "OriginLink": "https://www.udacity.com/",
-            "Description": "Card game to test your memory - project part of the Udacity Front-End Nanodegree program..",
+            "OriginLink": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011",
+            "Description": "Card game to test your memory - project part of the Udacity Front-End Nanodegree program.",
             "Details": {
                 "Status": "Completed",
                 "Type": "Coursework",
