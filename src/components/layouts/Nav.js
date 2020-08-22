@@ -11,9 +11,9 @@ import _cvIcon from '../../res/menu/cv-page-icon.svg'
 const Nav = (props) => {
     /* 
         The component has been used twice -
-        in the header as secondary navagation (Header.js) 
+        in the header as secondary navigation (Header.js) 
         and by itself as the main navigation (Layout.js).
-        The positionClass variable dynimically sets the 
+        The positionClass variable dynamically sets the 
         nav element class based on the component position.
         Different styling is used for the different classes (nav.sass) 
     */
