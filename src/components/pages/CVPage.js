@@ -15,9 +15,9 @@ const traits = CV.Abilities.Traits
 const talents = CV.Abilities.Talents
 const passions = CV.Passions
 
-const AboutPage = () => {
+const CVPage = () => {
     return (
-        <div id='about-page-wrapper'>
+        <div id='cv-page-wrapper'>
             <section id='story-wrapper'>
                 <p id='my-story'>
                     {CV.Intro}
@@ -67,4 +67,4 @@ const AboutPage = () => {
     )
 }
 
-export default AboutPage;
+export default CVPage;

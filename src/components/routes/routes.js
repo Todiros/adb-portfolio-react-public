@@ -2,9 +2,9 @@
 import React from 'react'
 
 import HomePage from '../pages/HomePage'
-import AboutPage from '../pages/AboutPage'
 import WorkPage from '../pages/WorkPage'
 import ContactPage from '../pages/ContactPage'
+import CVPage from '../pages/CVPage'
 import ErrorPage from '../pages/ErrorPage';
 
 const pageName = (name) => {
@@ -14,14 +14,14 @@ const pageName = (name) => {
 const home = () => {
     return pageName('HOME')
 }
-const about = () => {
-    return pageName('ABOUT')
-}
 const work = () => {
     return pageName('WORK')
 }
 const contact = () => {
     return pageName('CONTACT')
+}
+const cv = () => {
+    return pageName('CV')
 }
 const error = () => {
     return pageName('404')
@@ -33,12 +33,7 @@ const routes = [
         exact: true,
         pageName: home,
         content: HomePage
-    },
-    {
-        path: '/about',
-        pageName: about,
-        content: AboutPage 
-    },
+    },   
     {
         path: '/work',
         pageName: work,
@@ -48,6 +43,11 @@ const routes = [
         path: '/contact',
         pageName: contact,
         content: ContactPage 
+    },
+    {
+        path: '/cv',
+        pageName: cv,
+        content: CVPage 
     },
     {
         pageName: error,
