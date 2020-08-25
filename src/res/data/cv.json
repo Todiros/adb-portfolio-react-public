@@ -363,6 +363,22 @@
                     "WIL: Basic game development, Working with an existing game engine and resources, Object-Oriented JS, Working with coordinates, Keyboard controls, Writing READMEs"
                 ]
             }
+        },
+        {
+            "Id": 7,
+            "Name": "Python Spider with Scrapy",    
+            "Img": "https://via.placeholder.com/430x300/61892f/58595B/?text=NO+PREVIEW",
+            "DemoLink": "NA",
+            "CodeLink": "https://github.com/Todiros/ScrapySpider/blob/master/scraper.py",
+            "Description": "Web spider that goes through a specific page and some of it's links, filters and formats data, and prints on the console.",
+            "Details": {
+                "Status": "Completed",
+                "Type": "Assignment",
+                "WIL": [
+                    "Stack: Python, Scrapy",
+                    "WIL: Web Scraping, Scraper vs Spider, Working with a deadline, RegEx"
+                ]
+            }
         }
     ]
 }
