@@ -379,6 +379,23 @@
                     "WIL: Web Scraping, Scraper vs Spider, Working with a deadline, RegEx"
                 ]
             }
+        },
+        {
+            "Id": 8,
+            "Name": "Calculator",    
+            "Img": "https://i.imgur.com/4ykiyEf.png",
+            "DemoLink": "NA",
+            "CodeLink": "https://github.com/Todiros/cpp-calculator",
+            "Description": "Simple desktop calculator build with C++ and Qt Creator.",
+            "Details": {
+                "Status": "Completed",
+                "Type": "Coursework",
+                "WIL": [
+                    "Stack: C++, Qt Creator",
+                    "WIL: OOP with C++, Pointers, Qt Creator IDE, GUI Application Development"
+                ]
+            }
         }
     ]
 }
+
