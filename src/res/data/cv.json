@@ -314,7 +314,7 @@
         },
         {
             "Id": 6,
-            "Name": "Python Web Scraper",    
+            "Name": "Web Scraper",    
             "Img": "https://via.placeholder.com/430x300/61892f/58595B/?text=NO+PREVIEW",
             "DemoLink": "NA",
             "CodeLink": "https://github.com/Todiros/WebScraper",
@@ -366,7 +366,7 @@
         },
         {
             "Id": 7,
-            "Name": "Python Spider with Scrapy",    
+            "Name": "Scrapy Spider",    
             "Img": "https://via.placeholder.com/430x300/61892f/58595B/?text=NO+PREVIEW",
             "DemoLink": "NA",
             "CodeLink": "https://github.com/Todiros/ScrapySpider/blob/master/scraper.py",
