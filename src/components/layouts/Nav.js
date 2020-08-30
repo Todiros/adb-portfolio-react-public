@@ -6,6 +6,7 @@ import _homeIcon from '../../res/menu/home-page-icon.svg'
 import _workIcon from '../../res/menu/work-page-icon.svg'
 import _contactIcon from '../../res/menu/contact-page-icon.svg'
 import _cvIcon from '../../res/menu/cv-page-icon.svg'
+import _aboutIcon from '../../res/menu/about-page-icon.svg'
 
 
 const Nav = (props) => {
@@ -59,6 +60,16 @@ const Nav = (props) => {
                                 alt='nav-cv'
                                 id='nav-icon' 
                                 className='nav-cv-icon' 
+                            />
+                        </NavLink> 
+                    </li>
+                    <li>
+                        <NavLink to={`/about`} activeClassName='nav-icon-active'>
+                            <img 
+                                src={_aboutIcon} 
+                                alt='nav-about'
+                                id='nav-icon' 
+                                className='nav-about-icon' 
                             />
                         </NavLink> 
                     </li>
