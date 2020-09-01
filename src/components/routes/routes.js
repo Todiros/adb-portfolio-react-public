@@ -5,6 +5,7 @@ import HomePage from '../pages/HomePage'
 import WorkPage from '../pages/WorkPage'
 import ContactPage from '../pages/ContactPage'
 import CVPage from '../pages/CVPage'
+import AboutPage from '../pages/AboutPage'
 import ErrorPage from '../pages/ErrorPage';
 
 const pageName = (name) => {
@@ -22,6 +23,9 @@ const contact = () => {
 }
 const cv = () => {
     return pageName('CV')
+}
+const about = () => {
+    return pageName('ABOUT')
 }
 const error = () => {
     return pageName('404')
@@ -48,6 +52,11 @@ const routes = [
         path: '/cv',
         pageName: cv,
         content: CVPage 
+    },
+    {
+        path: '/about',
+        pageName: about,
+        content: AboutPage
     },
     {
         pageName: error,
