@@ -1,16 +1,24 @@
 {
-    "Intro": "",
+    "Intro": "This is a personal portfolio webpage showcasing my work for prospective employers and clients.",
     "Credits": {
-        "Icons": [
-            {"Title":"Test 1", "URL":"#"},
-            {"Title":"Test 2", "URL":"#"},
-            {"Title":"Test 3", "URL":"#"}
-        ],
-        "Code": [
-            {"Title":"", "URL":""}
-        ],
-        "Others": [
-            {"Title":"", "URL":""}
+        "Description": "Giving credits and special thanks to the authors of everything used to create ADB Studios.",
+        "Types": [
+            {
+                "TypeName": "Icons",
+                "Items": [
+                    {"Title":"Test 1", "URL":"#"},
+                    {"Title":"Test 2", "URL":"#"},
+                    {"Title":"Test 3", "URL":"#"}
+                ]
+            },
+            {
+                "TypeName": "Code",
+                "Items": []
+            },
+            {
+                "TypeName": "Other",
+                "Items": []
+            }
         ]
     }
 }

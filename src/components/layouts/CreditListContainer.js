@@ -1,18 +1,18 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const CreditListItem = (props) => {
+const CreditListContainer = (props) => {
     return (
         <li className='credit-type-container'>
             <h3 className="credit-title">
-                ICONS
+                {props.type}
             </h3>
             <ul className='credit-list'>
                 {
                     props.items.map(item => 
                         <li className='credit-item'>
-                            <a href={item.URL}>{item.Title}</a>
-                        </li>    
+                            <a href={item.URL} className='credit-link' id='external-link'>{item.Title}</a>
+                        </li> 
                     )
 
                 }
@@ -21,10 +21,10 @@ const CreditListItem = (props) => {
     )
 }
 
-CreditListItem.propTypes = {
+CreditListContainer.propTypes = {
     type: PropTypes.string.isRequired,
     items: PropTypes.array.isRequired,
 }
 
-export default CreditListItem
+export default CreditListContainer
 
