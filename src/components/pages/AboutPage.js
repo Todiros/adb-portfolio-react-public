@@ -16,7 +16,7 @@ const AboutPage = () => {
                 <p className="credits-information">
                     {data.Credits.Description}
                 </p>
-                <ul className="credits">
+                <ul id="credits">
                     {
                         data.Credits.Types.map(type =>
                             // returns component only if the credit type has any credits inside
