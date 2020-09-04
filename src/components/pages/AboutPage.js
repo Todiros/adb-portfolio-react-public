@@ -21,7 +21,7 @@ const AboutPage = () => {
                         data.Credits.Types.map(type =>
                             // returns component only if the credit type has any credits inside
                             type.Items.length ? 
-                                <CreditListContainer type={type.TypeName} items={type.Items}/> : 
+                                <CreditListContainer key={type.TypeName} type={type.TypeName} items={type.Items}/> : 
                                 null
                         )
                     }

@@ -6,9 +6,12 @@
             {
                 "TypeName": "Icons",
                 "Items": [
-                    {"Title":"Test 1", "URL":"#"},
-                    {"Title":"Test 2", "URL":"#"},
-                    {"Title":"Test 3", "URL":"#"}
+                    {"Title":"Main Navigation - Ego Icons 2", "URL":"https://www.producthunt.com/posts/ego-icons-2"},
+                    {"Title":"Social Nav - GitHub - Five Icons", "URL":"https://www.iconfinder.com/fiveicons/icon-sets"},
+                    {"Title":"Social Nav - LinkedIn - Icojam", "URL":"https://www.iconfinder.com/Icojam"},
+                    {"Title":"Social Nav - Codepen - Font Awesome", "URL":"https://www.iconfinder.com/iconsets/font-awesome"},
+                    {"Title":"404 Error - Flaticon", "URL":"https://www.flaticon.com/search?word=404"},
+                    {"Title":"Dropdown Arrow", "URL":"https://icons8.com/icon/39942/expand-arrow"}
                 ]
             },
             {

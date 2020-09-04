@@ -10,8 +10,8 @@ const CreditListContainer = (props) => {
             <ul className='credit-list'>
                 {
                     props.items.map(item => 
-                        <li className='credit-item'>
-                            <a href={item.URL} className='credit-link' id='external-link'>{item.Title}</a>
+                        <li key={item.Title} className='credit-item'>
+                            <a href={item.URL} className='credit-link' id='external-link' target='_blank' rel='noopener noreferrer'>{item.Title}</a>
                         </li> 
                     )
 
