@@ -7,20 +7,27 @@
                 "TypeName": "Icons",
                 "Items": [
                     {"Title":"Main Navigation - Ego Icons 2", "URL":"https://www.producthunt.com/posts/ego-icons-2"},
+                    {"Title":"Home Page - Mustache Guy - Streamline Illustrations Free Duo", "URL":"https://www.streamlineicons.com/"},
                     {"Title":"Social Nav - GitHub - Five Icons", "URL":"https://www.iconfinder.com/fiveicons/icon-sets"},
                     {"Title":"Social Nav - LinkedIn - Icojam", "URL":"https://www.iconfinder.com/Icojam"},
                     {"Title":"Social Nav - Codepen - Font Awesome", "URL":"https://www.iconfinder.com/iconsets/font-awesome"},
                     {"Title":"404 Error - Flaticon", "URL":"https://www.flaticon.com/search?word=404"},
-                    {"Title":"Dropdown Arrow", "URL":"https://icons8.com/icon/39942/expand-arrow"}
+                    {"Title":"Dropdown Arrow by Icons8", "URL":"https://icons8.com/icon/39942/expand-arrow"},
+                    {"Title":"Passions Icons by Icons8", "URL":"https://icons8.com/"}
                 ]
             },
             {
-                "TypeName": "Code",
-                "Items": []
+                "TypeName": "Fonts",
+                "Items": [
+                    {"Title":"Saira Condensed by Google Fonts", "URL":"https://fonts.google.com/specimen/Saira+Condensed"}
+                ]
+                
             },
             {
-                "TypeName": "Other",
-                "Items": []
+                "TypeName": "Code",
+                "Items": [
+                    {"Title":"Object-Sorting Algorithm (for the project page)", "URL":"https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/"}
+                ]
             }
         ]
     }
