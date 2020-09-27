@@ -19,7 +19,7 @@ const ContactPage = () => {
             <textarea id="input-message" className="input-field" name="message" placeholder="Message" spellCheck="false"/>
           </section>
           <section id='submit-wrapper'>
-            <button id='send-mail-button' className='custom-button'>SEND</button>
+            <button id='send-mail-button' className='custom-button' type="submit">SEND</button>
           </section>
         </form>
 
