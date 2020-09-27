@@ -10,6 +10,7 @@ const ContactPage = () => {
         <form id='contact-form' name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
           <p>You can reach me via email using the form below.</p>
           <section id='input-wrapper'>
+            <input type="hidden" name="form-name" value="contact" />
             <p id="hidden-input-field">
               <label>Don’t fill this out if you're human: <input name="bot-field"/></label>
             </p>
