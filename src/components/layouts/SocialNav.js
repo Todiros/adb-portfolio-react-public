@@ -6,10 +6,9 @@ import _linkedinIcon from '../../res/social/linkedin.svg'
 import _githubIcon from '../../res/social/github.svg'
 
 const SocialNav = (props) => {
-    const positionClass = props.position === "header" ? "header" : "page"
 
     return (
-        <section id='social-nav-container' className={positionClass}>
+        <section id='social-nav-container' className={props.position}>
             <ul className='social-nav'>
                 <li>
                     <a href='https://codepen.io/Xzahn' target='_blank' rel="noopener noreferrer">
