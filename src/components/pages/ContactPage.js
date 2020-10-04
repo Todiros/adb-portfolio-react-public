@@ -1,4 +1,5 @@
 import React from 'react'
+import SocialNav from '../layouts/SocialNav'
 
 const ContactPage = () => {
   return (
@@ -30,6 +31,7 @@ const ContactPage = () => {
               <li id="contact-name">Tony D.</li>
               <li id="contact-location">Sofia, Bulgaria</li>
               <li id="contact-email">myemail@email.com</li>
+              <li id="contact-social"><SocialNav position='contact'/></li>
             </ul>
         </section>
       </div>

@@ -1,3 +1,14 @@
+@mixin social-nav-contact-styling
+    &.contact
+        display: grid
+
+        .social-nav
+            grid-template-columns: repeat(3, 1fr)
+            margin: 1em 0
+
+            li
+                margin-right: 0.5em
+    
 #nav-container
     display: grid
     grid-row: 3
@@ -128,6 +139,8 @@
             &:hover
                 filter: invert(48%) sepia(39%) saturate(626%) hue-rotate(44deg) brightness(91%) contrast(93%)
 
+    @include social-nav-contact-styling
+    
     // DESKTOP
     @media screen and (min-width: $desktop) and (max-width: $widescreen - 1)
         &.header
