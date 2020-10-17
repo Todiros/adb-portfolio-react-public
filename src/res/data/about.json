@@ -12,21 +12,22 @@
                     {"Title":"Social Nav - LinkedIn - Icojam", "URL":"https://www.iconfinder.com/Icojam"},
                     {"Title":"Social Nav - Codepen - Font Awesome", "URL":"https://www.iconfinder.com/iconsets/font-awesome"},
                     {"Title":"404 Error - Flaticon", "URL":"https://www.flaticon.com/search?word=404"},
-                    {"Title":"Dropdown Arrow by Icons8", "URL":"https://icons8.com/icon/39942/expand-arrow"},
-                    {"Title":"Passions Icons by Icons8", "URL":"https://icons8.com/"}
+                    {"Title":"Dropdown Arrow - Icons8", "URL":"https://icons8.com/icon/39942/expand-arrow"},
+                    {"Title":"Passions Icons - Icons8", "URL":"https://icons8.com/"}
                 ]
             },
             {
                 "TypeName": "Fonts",
                 "Items": [
-                    {"Title":"Saira Condensed by Google Fonts", "URL":"https://fonts.google.com/specimen/Saira+Condensed"}
+                    {"Title":"Main Font - Saira Condensed by Omnibus-Type - Google Fonts", "URL":"https://fonts.google.com/specimen/Saira+Condensed"},
+                    {"Title":"Logo Subfont - Italianno by TypeSETit - Google Fonts", "URL":"https://fonts.google.com/specimen/Italianno"}
                 ]
                 
             },
             {
                 "TypeName": "Code",
                 "Items": [
-                    {"Title":"Object-Sorting Algorithm (for the project page)", "URL":"https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/"}
+                    {"Title":"Project Page - Object-Sorting Algorithm", "URL":"https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/"}
                 ]
             }
         ]
