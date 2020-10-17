@@ -19,7 +19,8 @@
             {
                 "TypeName": "Fonts",
                 "Items": [
-                    {"Title":"Saira Condensed by Google Fonts", "URL":"https://fonts.google.com/specimen/Saira+Condensed"}
+                    {"Title":"Saira Condensed by Google Fonts", "URL":"https://fonts.google.com/specimen/Saira+Condensed"},
+                    {"Title":"Logo Subfont - Italianno by TypeSETit - Google Fonts", "URL":"https://fonts.google.com/specimen/Italianno"}
                 ]
                 
             },
