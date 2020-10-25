@@ -28,7 +28,8 @@
             margin: 0
 
     // TABLET
-    @media screen and (min-width: $tablet) and (max-width: $desktop - 1) and (min-height: $tablet)
+    /* Header min-width hardocoded to 590px due to it breaking between 580 and 590px of device width. */ 
+    @media screen and (min-width: 590px) and (max-width: $desktop - 1) and (min-height: $tablet)
         grid-template-columns: minmax(250px, 35vw) auto
         grid-template-rows: 1fr
 
