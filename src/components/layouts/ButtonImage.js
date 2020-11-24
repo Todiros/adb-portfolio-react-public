@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
+// Dropdown arrow / button expanding the passion's description within the CV page
 export class ButtonImage extends Component {
     state = {
         isToggled: false
