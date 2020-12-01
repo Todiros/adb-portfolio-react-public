@@ -44,22 +44,22 @@ const Nav = (props) => {
                         </NavLink> 
                     </li>
                     <li>
-                        <NavLink to={`/contact`} activeClassName='nav-icon-active'>
-                            <img 
-                                src={_contactIcon} 
-                                alt='nav-contact'
-                                id='nav-icon' 
-                                className='nav-contact-icon' 
-                            />
-                        </NavLink> 
-                    </li>
-                    <li>
                         <NavLink to={`/cv`} activeClassName='nav-icon-active'>
                             <img 
                                 src={_cvIcon} 
                                 alt='nav-cv'
                                 id='nav-icon' 
                                 className='nav-cv-icon' 
+                            />
+                        </NavLink> 
+                    </li>
+                    <li>
+                        <NavLink to={`/contact`} activeClassName='nav-icon-active'>
+                            <img 
+                                src={_contactIcon} 
+                                alt='nav-contact'
+                                id='nav-icon' 
+                                className='nav-contact-icon' 
                             />
                         </NavLink> 
                     </li>
